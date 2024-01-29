@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Why Partner with ISTech for Data-Driven Solutions?",
+  "text": "In today's digital landscape, data is the lifeblood of success. But harnessing its power for impactful partnerships requires expertise and the right tools. That's where ISTech comes in. We offer a compelling reason to entrust your data-driven journey to us, not just one, but two powerful reasons:",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Unleash the Hidden Potential of Your Data",
+      "content": "Uncover hidden insights and optimize joint success with AI-powered analytics and real-time data dashboards.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Forge Stronger, More Resilient Partnerships",
+      "content": "Build trust and resilience in your partnerships through proactive problem-solving and shared data transparency.",
       "icon": "notes.svg"
     }
   ]
