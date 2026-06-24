@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   title: 'isTech — B2B Data Engineering Consultancy',
   description: 'Expert data engineering consultancy serving US enterprise clients. Data platform architecture, cloud migrations, AI-integrated analytics, and enterprise consulting.',
   keywords: ['isTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
+  authors: [{ name: 'Rafael Ignaulin' }],
+  creator: 'Rafael Ignaulin',
   openGraph: {
     title: 'isTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients with operations expanding into Oceania and Europe.',
@@ -32,6 +34,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   alternates: {
     canonical: 'https://istech.ignaulin.com',
@@ -47,15 +56,45 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="scroll-smooth dark" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'isTech',
+              url: 'https://istech.ignaulin.com',
+              description: 'Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe.',
+              founder: {
+                '@type': 'Person',
+                name: 'Rafael Ignaulin',
+                jobTitle: 'Senior Data Engineer',
+                url: 'https://rafa.ignaulin.com',
+              },
+              contactPoint: {
+                '@type': 'ContactPoint',
+                email: 'rafa@ignaulin.com',
+                contactType: 'sales',
+              },
+              knowsAbout: [
+                'Data Engineering', 'Spark', 'Databricks', 'AWS', 'Kafka',
+                'Airflow', 'Terraform', 'AI', 'MCP Servers', 'LLM Integration',
+              ],
+            }),
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              try {
-                const t = localStorage.getItem('istech-theme');
-                if (t === 'light') document.documentElement.classList.add('light');
-              } catch {}
+              (function() {
+                var t = localStorage.getItem('istech-theme') ||
+                  (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.classList.remove('light', 'dark');
+                document.documentElement.classList.add(t);
+              })();
             `,
           }}
         />
