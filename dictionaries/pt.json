@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "services": "Serviços",
+    "mission": "Missão",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "isTech",
+    "subtitle": "Consultoria B2B em Engenharia de Dados",
+    "description": "Consultoria especializada em engenharia de dados para clientes enterprise nos EUA, com operações em expansão para Oceania e Europa. Arquitetamos plataformas de dados, migrações em nuvem e analytics integrados com IA.",
+    "cta": "Começar",
+    "learnMore": "Saiba Mais"
+  },
+  "about": {
+    "title": "Por que a isTech?",
+    "description": "Entregamos soluções completas de engenharia de dados para clientes enterprise, incluindo Data Warehouses, Data Lakes e Lakehouses em AWS, Azure, Spark, Kafka, Airflow e Terraform.",
+    "cards": [
+      {
+        "title": "Arquitetura de Plataformas de Dados",
+        "description": "Design e construção de plataformas de dados em produção: Lakehouses, Data Warehouses e sistemas de streaming em tempo real."
+      },
+      {
+        "title": "Cloud & Infraestrutura",
+        "description": "AWS, Azure e Databricks — migrações, otimização e IaC com Terraform e Kubernetes."
+      },
+      {
+        "title": "IA & Sistemas Agênticos",
+        "description": "Integração com LLMs, servidores MCP, pipelines RAG e produtos de dados com IA em stacks modernos."
+      },
+      {
+        "title": "Consultoria Enterprise",
+        "description": "Estratégia de dados, design de arquitetura e engenharia principal fracionada para organizações orientadas a dados."
+      }
+    ]
+  },
+  "mission": {
+    "title": "De Dados a Decisões",
+    "description": "Transformamos dados brutos em inteligência acionável usando pipelines na nuvem, ML e dashboards em tempo real — capacitando suas equipes a tomar decisões mais rápidas e orientadas por dados.",
+    "cta": "Inicie Seu Projeto"
+  },
+  "highlights": {
+    "title": "Por que escolher a isTech?",
+    "items": [
+      "Especialistas em stack de dados moderno (Spark, Databricks, Kafka, Airflow)",
+      "13+ certificações profissionais (AWS, Databricks, Azure)",
+      "Histórico comprovado em empresas Fortune 500 (Nike, Inter&Co)",
+      "Contratos ativos com clientes enterprise nos EUA",
+      "Operações em 6+ fusos horários sem fricção na entrega",
+      "Fundada por um Engenheiro de Dados Senior com experiência prática em enterprise"
+    ]
+  },
+  "contact": {
+    "title": "Vamos Conversar",
+    "description": "Pronto para transformar sua infraestrutura de dados? Entre em contato e vamos discutir seu projeto.",
+    "name": "Nome",
+    "namePlaceholder": "Seu Nome",
+    "email": "Email",
+    "emailPlaceholder": "Seu Email",
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte-nos sobre seu projeto",
+    "submit": "Enviar Mensagem"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "contact": "Contato",
+    "email": "rafa@ignaulin.com"
+  }
+}

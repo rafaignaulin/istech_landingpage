@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "mission": "Mission",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "isTech",
+    "subtitle": "B2B Data Engineering Consultancy",
+    "description": "Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe. We architect production-grade data platforms, cloud migrations, and AI-integrated analytics.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "Why Partner with isTech?",
+    "description": "We deliver end-to-end data engineering solutions to enterprise clients, spanning Data Warehouses, Data Lakes, and Lakehouses on AWS, Azure, Spark, Kafka, Airflow, and Terraform.",
+    "cards": [
+      {
+        "title": "Data Platform Architecture",
+        "description": "Design and build production-grade data platforms: Lakehouses, Data Warehouses, and real-time streaming systems."
+      },
+      {
+        "title": "Cloud & Infrastructure",
+        "description": "AWS, Azure, and Databricks — migrations, optimization, and IaC with Terraform and Kubernetes."
+      },
+      {
+        "title": "AI & Agentic Systems",
+        "description": "LLM integration, MCP servers, RAG pipelines, and AI-powered data products on modern data stacks."
+      },
+      {
+        "title": "Enterprise Consulting",
+        "description": "Data strategy, architecture design, and fractional principal engineering for data-driven organizations."
+      }
+    ]
+  },
+  "mission": {
+    "title": "From Data to Decisions",
+    "description": "We turn raw data into actionable intelligence using cloud-powered pipelines, ML, and real-time dashboards — empowering your teams to make faster, data-driven decisions.",
+    "cta": "Start Your Project"
+  },
+  "highlights": {
+    "title": "Why Choose isTech?",
+    "items": [
+      "Expert in modern data stack (Spark, Databricks, Kafka, Airflow)",
+      "13+ professional certifications (AWS, Databricks, Azure)",
+      "Proven track record at Fortune 500 companies (Nike, Inter&Co)",
+      "Active contracts with US enterprise clients",
+      "Operations across 6+ timezones with zero delivery friction",
+      "Founded by a Senior Data Engineer with hands-on enterprise experience"
+    ]
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "description": "Ready to transform your data infrastructure? Reach out and let's discuss your project.",
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "email": "Email",
+    "emailPlaceholder": "Your Email",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project",
+    "submit": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "contact": "Contact",
+    "email": "rafa@ignaulin.com"
+  }
+}
