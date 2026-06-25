@@ -13,6 +13,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://istech.ignaulin.com'),
   title: 'isTech — B2B Data Engineering Consultancy',
   description: 'Expert data engineering consultancy serving US enterprise clients. Data platform architecture, cloud migrations, AI-integrated analytics, and enterprise consulting.',
   keywords: ['isTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'isTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients.',
   },
@@ -58,7 +59,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth dark" suppressHydrationWarning>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -79,10 +79,21 @@ export default function RootLayout({
                 email: 'rafa@ignaulin.com',
                 contactType: 'sales',
               },
+              areaServed: ['US', 'AU', 'NZ', 'EU'],
               knowsAbout: [
                 'Data Engineering', 'Spark', 'Databricks', 'AWS', 'Kafka',
                 'Airflow', 'Terraform', 'AI', 'MCP Servers', 'LLM Integration',
               ],
+              hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: 'Data Engineering Services',
+                itemListElement: [
+                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Data Platform Architecture', description: 'End-to-end data platform design with Spark, Databricks, and cloud-native tools' } },
+                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cloud & Infrastructure', description: 'AWS cloud migrations, Terraform IaC, and scalable infrastructure' } },
+                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI & LLM Integration', description: 'MCP servers, RAG pipelines, and AI-integrated analytics' } },
+                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Enterprise Consulting', description: 'Strategic data engineering consulting for Fortune 500 companies' } },
+                ],
+              },
             }),
           }}
         />

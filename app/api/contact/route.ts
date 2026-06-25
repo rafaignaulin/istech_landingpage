@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    console.log('isTech contact form submission (email disabled):', { name, email, message })
+    // TODO: integrate with email service (SendGrid, Resend, or AWS SES)
     return NextResponse.json({
       success: true,
       message: 'Thank you for your message. We\'ll get back to you soon!'
