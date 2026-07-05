@@ -91,7 +91,7 @@ export default function RootLayout({
                   { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Data Platform Architecture', description: 'End-to-end data platform design with Spark, Databricks, and cloud-native tools' } },
                   { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cloud & Infrastructure', description: 'AWS cloud migrations, Terraform IaC, and scalable infrastructure' } },
                   { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI & LLM Integration', description: 'MCP servers, RAG pipelines, and AI-integrated analytics' } },
-                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Enterprise Consulting', description: 'Strategic data engineering consulting for Fortune 500 companies' } },
+                  { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Enterprise Consulting', description: 'Strategic data engineering consulting for data-driven organizations' } },
                 ],
               },
             }),
