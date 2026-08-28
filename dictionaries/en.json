@@ -6,14 +6,14 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "isTech",
+    "title": "ISTech",
     "subtitle": "B2B Data Engineering Consultancy",
     "description": "Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe. Currently delivering for Nike and Inter&Co: production-grade data platforms, cloud migrations, and AI-integrated analytics.",
     "cta": "Get Started",
     "learnMore": "Learn More"
   },
   "about": {
-    "title": "Why Partner with isTech?",
+    "title": "Why Partner with ISTech?",
     "description": "We deliver end-to-end data engineering solutions to enterprise clients, spanning Data Warehouses, Data Lakes, and Lakehouses on AWS, Azure, Spark, Kafka, Airflow, and Terraform.",
     "cards": [
       {
@@ -40,7 +40,7 @@
     "cta": "Start Your Project"
   },
   "highlights": {
-    "title": "Why Choose isTech?",
+    "title": "Why Choose ISTech?",
     "items": [
       "Active engagements: Nike (clickstream data foundation, LLM analytics agent, MCP servers) and Inter&Co (40M+ customer segmentation platform)",
       "98% Spark data-read reduction and 70% AWS cost cut on multi-terabyte pipelines",

@@ -7,25 +7,33 @@ html {
 }
 
 :root {
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #1a1a1a;
-  --text-primary: #ffffff;
-  --text-secondary: #9ca3af;
-  --text-tertiary: #6b7280;
-  --border-color: #1f2937;
-  --accent: #0066cc;
-  --accent-hover: #0052a3;
+  /* isTech Brand System — ink (dark, default) */
+  --bg-primary: #0b1220;
+  --bg-secondary: #111a2e;
+  --text-primary: #eaeef7;
+  --text-secondary: #aeb8cc;
+  --text-tertiary: #7c8598;
+  --border-color: #232e48;
+  --accent: #2e63eb;
+  --accent-hover: #4c7cf0;
+  --verified: #29b37b;
+  --wordmark: #ffffff;
+  --wordmark-accent: #6e93f5;
 }
 
 .light {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f9fafb;
-  --text-primary: #111827;
-  --text-secondary: #4b5563;
-  --text-tertiary: #6b7280;
-  --border-color: #e5e7eb;
-  --accent: #0066cc;
-  --accent-hover: #0052a3;
+  /* isTech Brand System — paper (light) */
+  --bg-primary: #f4f6fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #101728;
+  --text-secondary: #4c5568;
+  --text-tertiary: #7c8598;
+  --border-color: #dee3ec;
+  --accent: #2e63eb;
+  --accent-hover: #1a3fae;
+  --verified: #1f9463;
+  --wordmark: #16204a;
+  --wordmark-accent: #2e63eb;
 }
 
 body {
@@ -40,8 +48,13 @@ body {
     @apply max-w-6xl mx-auto px-6 py-20;
   }
 
+  .eyebrow {
+    @apply font-mono text-xs font-semibold uppercase tracking-widest mb-3 inline-block;
+    color: var(--accent);
+  }
+
   .section-title {
-    @apply text-3xl md:text-4xl font-bold mb-12;
+    @apply text-3xl md:text-4xl font-bold mb-4;
     color: var(--accent);
   }
 
@@ -53,7 +66,7 @@ body {
 
   .card:hover {
     border-color: var(--accent);
-    opacity: 0.8;
+    opacity: 0.85;
   }
 
   .btn-primary {
@@ -66,6 +79,11 @@ body {
     background-color: var(--accent-hover);
   }
 
+  .btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
   .btn-secondary {
     @apply border px-6 py-3 rounded-lg font-semibold transition-colors duration-200;
     border-color: var(--accent);
@@ -75,6 +93,16 @@ body {
   .btn-secondary:hover {
     background-color: var(--accent);
     color: white;
+  }
+
+  .icon-btn {
+    @apply p-2 rounded-lg transition-colors duration-200;
+    color: var(--text-secondary);
+  }
+
+  .icon-btn:hover {
+    color: var(--accent);
+    background-color: var(--bg-secondary);
   }
 }
 

@@ -3,6 +3,24 @@
 import { useState, FormEvent } from 'react'
 import { useLocale } from '@/lib/locale-provider'
 
+function MailIcon() {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="m3 7 9 6 9-6" />
+    </svg>
+  )
+}
+
+function LinkIcon() {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M10 14 20 4M14 4h6v6" />
+      <path d="M20 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h6" />
+    </svg>
+  )
+}
+
 export default function Contact() {
   const { t } = useLocale()
   const [submitted, setSubmitted] = useState(false)
@@ -37,6 +55,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section-container border-t" style={{ borderColor: 'var(--border-color)' }}>
       <div className="max-w-2xl mx-auto">
+        <span className="eyebrow block text-center">Contact</span>
         <h2 className="section-title text-center">{t.contact.title}</h2>
         <p className="text-center mb-8" style={{ color: 'var(--text-secondary)' }}>
           {t.contact.description}
@@ -48,7 +67,7 @@ export default function Contact() {
             className="card flex items-center gap-3 hover:border-accent transition-colors"
             style={{ borderColor: 'var(--border-color)' }}
           >
-            <span className="text-2xl">✉️</span>
+            <span style={{ color: 'var(--accent)' }}><MailIcon /></span>
             <div>
               <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Email</p>
               <p className="text-sm" style={{ color: 'var(--accent)' }}>rafa@ignaulin.com</p>
@@ -61,7 +80,7 @@ export default function Contact() {
             className="card flex items-center gap-3 hover:border-accent transition-colors"
             style={{ borderColor: 'var(--border-color)' }}
           >
-            <span className="text-2xl">💼</span>
+            <span style={{ color: 'var(--accent)' }}><LinkIcon /></span>
             <div>
               <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>LinkedIn</p>
               <p className="text-sm" style={{ color: 'var(--accent)' }}>linkedin.com/in/rafa-ignaulin</p>

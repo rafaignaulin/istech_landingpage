@@ -12,6 +12,7 @@ export default function Mission() {
       style={{ borderColor: 'var(--border-color)' }}
     >
       <div className="max-w-4xl mx-auto text-center">
+        <span className="eyebrow">Mission</span>
         <h2 className="section-title">{t.mission.title}</h2>
         <p className="text-lg mb-8 leading-relaxed max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
           {t.mission.description}

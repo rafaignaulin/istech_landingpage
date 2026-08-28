@@ -9,13 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        dark: "#0a0a0a",
-        "dark-secondary": "#1a1a1a",
-        accent: "#0066cc",
-        "accent-hover": "#0052a3",
+        ink: "#0b1220",
+        paper: "#f4f6fa",
+        navy: "#16204a",
+        accent: "#2e63eb",
+        "accent-hover": "#1a3fae",
+        verified: "#1f9463",
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["var(--font-sans)", "Inter", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "SFMono-Regular", "monospace"],
       },
     },
   },

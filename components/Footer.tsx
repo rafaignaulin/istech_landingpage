@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="border-t py-8 px-6" style={{ borderColor: 'var(--border-color)' }}>
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
-          © {new Date().getFullYear()} isTech. {t.footer.rights}
+          © {new Date().getFullYear()} ISTech. {t.footer.rights}
         </p>
         <div className="flex items-center gap-6">
           <a

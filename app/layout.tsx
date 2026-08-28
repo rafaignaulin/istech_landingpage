@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Source_Serif_4, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/lib/theme-provider'
 import { LocaleProvider } from '@/lib/locale-provider'
@@ -10,26 +10,42 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
   display: 'swap',
+  variable: '--font-sans',
+})
+
+const sourceSerif = Source_Serif_4({
+  subsets: ['latin'],
+  weight: ['600', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-serif',
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  display: 'swap',
+  variable: '--font-mono',
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://istech.ignaulin.com'),
-  title: 'isTech — B2B Data Engineering Consultancy',
+  title: 'ISTech — B2B Data Engineering Consultancy',
   description: 'Expert data engineering consultancy serving US enterprise clients. Data platform architecture, cloud migrations, AI-integrated analytics, and enterprise consulting.',
-  keywords: ['isTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
+  keywords: ['ISTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
   authors: [{ name: 'Rafael Ignaulin' }],
   creator: 'Rafael Ignaulin',
   openGraph: {
-    title: 'isTech — B2B Data Engineering Consultancy',
+    title: 'ISTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients with operations expanding into Oceania and Europe.',
     url: 'https://istech.ignaulin.com',
-    siteName: 'isTech',
+    siteName: 'ISTech',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary',
-    title: 'isTech — B2B Data Engineering Consultancy',
+    title: 'ISTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients.',
   },
   robots: {
@@ -65,7 +81,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'isTech',
+              name: 'ISTech',
               url: 'https://istech.ignaulin.com',
               description: 'Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe.',
               founder: {
@@ -110,7 +126,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
         <ThemeProvider>
           <LocaleProvider>
             <Navbar />
