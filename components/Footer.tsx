@@ -13,6 +13,13 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-6">
           <a
+            href="/how-we-work"
+            className="text-sm hover:underline"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            Working with ISTech
+          </a>
+          <a
             href="mailto:rafa@ignaulin.com"
             className="text-sm hover:underline"
             style={{ color: 'var(--text-secondary)' }}
