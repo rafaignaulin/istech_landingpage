@@ -320,21 +320,21 @@ export default function HowWeWork() {
             <div className={styles.lbl}>Spark data reads cut on multi-terabyte pipelines</div>
           </div>
           <div>
-            <div className={styles.num}>70%</div>
-            <div className={styles.lbl}>AWS infrastructure cost reduction</div>
+            <div className={styles.num}>Billions</div>
+            <div className={styles.lbl}>Rows in the clickstream data foundation we own</div>
           </div>
           <div>
-            <div className={styles.num}>~50x</div>
-            <div className={styles.lbl}>More A/B test iterations, weeks to minutes</div>
+            <div className={styles.num}>Weeks → hours</div>
+            <div className={styles.lbl}>A/B test reporting, fully automated end to end</div>
           </div>
           <div>
-            <div className={styles.num}>40M+</div>
+            <div className={styles.num}>45M+</div>
             <div className={styles.lbl}>Customers served by a near real time segmentation engine</div>
           </div>
         </div>
         <p className={styles.certs}>
-          13+ certifications, including AWS Solutions Architect Professional, Databricks Data
-          Engineer Professional and Azure Solutions Architect Expert. Full resume at{' '}
+          13+ certifications, including AWS Solutions Architect Professional and Databricks Data
+          Engineer Professional. Full resume at{' '}
           <a href="https://rafa.ignaulin.com/resume">rafa.ignaulin.com/resume</a>.
         </p>
       </section>

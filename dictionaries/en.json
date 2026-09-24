@@ -42,8 +42,8 @@
   "highlights": {
     "title": "Why Choose ISTech?",
     "items": [
-      "Active engagements: Nike (clickstream data foundation, LLM analytics agent, MCP servers) and Inter&Co (40M+ customer segmentation platform)",
-      "98% Spark data-read reduction and 70% AWS cost cut on multi-terabyte pipelines",
+      "Active engagements: Nike (clickstream data foundation, LLM analytics agent, MCP servers) and Inter&Co (45M+ customer segmentation platform)",
+      "98% Spark data-read reduction on multi-terabyte pipelines and A/B test reporting automated from weeks to hours",
       "Expert in modern data stack (Spark, Databricks, Kafka, Airflow)",
       "13+ professional certifications (AWS, Databricks, Azure)",
       "Operations across 6+ timezones with zero delivery friction",
