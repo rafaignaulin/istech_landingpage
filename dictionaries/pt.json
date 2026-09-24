@@ -42,7 +42,7 @@
   "highlights": {
     "title": "Por que escolher a ISTech?",
     "items": [
-      "Contratos ativos: Nike (data foundation de clickstream, agente de analytics com LLM, servidores MCP) e Inter&Co (plataforma de segmentação de 45M+ clientes)",
+      "Contratos ativos: Nike (dados de clickstream, agente de analytics com LLM, servidores MCP) e Inter&Co (plataforma de segmentação de 45M+ clientes)",
       "98% de redução em leituras de dados Spark em pipelines multi-terabyte e relatórios de testes A/B automatizados, de semanas para horas",
       "Especialistas na stack moderna de dados (Spark, Databricks, Kafka, Airflow)",
       "13+ certificações profissionais (AWS, Databricks, Azure)",

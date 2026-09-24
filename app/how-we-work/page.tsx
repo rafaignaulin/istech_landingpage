@@ -321,7 +321,7 @@ export default function HowWeWork() {
           </div>
           <div>
             <div className={styles.num}>Billions</div>
-            <div className={styles.lbl}>Rows in the clickstream data foundation we own</div>
+            <div className={styles.lbl}>Rows of clickstream data behind the analytics we build</div>
           </div>
           <div>
             <div className={styles.num}>Weeks → hours</div>
