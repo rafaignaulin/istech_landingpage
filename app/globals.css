@@ -7,7 +7,7 @@ html {
 }
 
 :root {
-  /* isTech Brand System — ink (dark, default) */
+  /* ISTech Brand System — ink (dark, default) */
   --bg-primary: #0b1220;
   --bg-secondary: #111a2e;
   --text-primary: #eaeef7;
@@ -22,7 +22,7 @@ html {
 }
 
 .light {
-  /* isTech Brand System — paper (light) */
+  /* ISTech Brand System — paper (light) */
   --bg-primary: #f4f6fa;
   --bg-secondary: #ffffff;
   --text-primary: #101728;

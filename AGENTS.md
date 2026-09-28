@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents (Claude Code, Antigravity, Codex
 
 ## Project Overview
 
-Landing page for isTech, a B2B data engineering consultancy founded by Rafael Ignaulin. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istech.ignaulin.com. Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
+Landing page for ISTech, a B2B data engineering consultancy founded by Rafael Ignaulin. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istech.ignaulin.com. Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
 
 ## Commands
 
