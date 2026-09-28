@@ -26,6 +26,7 @@ contatos comerciais (LGPD art. 7º, IX). Não vendemos seus dados nem os usamos 
 - Vercel Inc. (EUA) — hospeda este site.
 - Cloudflare, Inc. (EUA) — DNS e encaminhamento de e-mail.
 - Google LLC (EUA) — e-mail.
+- Resend, Inc. (EUA) — entrega as mensagens do formulário de contato na nossa caixa.
 
 Esses fornecedores ficam nos Estados Unidos, então há transferência internacional de dados,
 com base nas cláusulas contratuais padrão deles (LGPD art. 33).

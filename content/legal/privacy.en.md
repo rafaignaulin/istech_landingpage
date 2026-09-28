@@ -26,6 +26,7 @@ enquiries (LGPD art. 7, IX). We do not sell your data or use it for advertising.
 - Vercel Inc. (USA) — hosts this site.
 - Cloudflare, Inc. (USA) — DNS and email routing.
 - Google LLC (USA) — email.
+- Resend, Inc. (USA) — delivers contact-form messages to our inbox.
 
 These providers are in the United States, so your data is transferred internationally,
 under their standard contractual terms (LGPD art. 33).
