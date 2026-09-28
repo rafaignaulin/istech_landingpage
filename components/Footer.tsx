@@ -10,6 +10,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
           © {new Date().getFullYear()} ISTech. {t.footer.rights}
+          <br />
+          Ignaulin Soluções Tecnológicas LTDA · CNPJ 49.181.911/0001-51
         </p>
         <div className="flex items-center gap-6">
           <a
@@ -25,6 +27,13 @@ export default function Footer() {
             style={{ color: 'var(--text-secondary)' }}
           >
             {t.footer.privacy}
+          </a>
+          <a
+            href="/refund"
+            className="text-sm hover:underline"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t.footer.refund}
           </a>
           <a
             href="mailto:rafa@ignaulin.com"
