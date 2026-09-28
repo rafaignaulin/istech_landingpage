@@ -1,0 +1,7 @@
+.shell { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; color: var(--text-secondary); }
+.doc h1 { font-family: var(--font-serif), Georgia, serif; font-size: 32px; color: var(--text-primary); margin: 0 0 16px; }
+.doc h2 { font-size: 18px; font-weight: 700; color: var(--text-primary); margin: 28px 0 8px; }
+.doc p, .doc li { line-height: 1.7; }
+.doc ul { list-style: disc; padding-left: 20px; }
+.doc strong { color: var(--text-primary); }
+.rule { border: 0; border-top: 1px solid var(--border-color); margin: 56px 0; }

@@ -20,6 +20,13 @@ export default function Footer() {
             Working with ISTech
           </a>
           <a
+            href="/privacy"
+            className="text-sm hover:underline"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t.footer.privacy}
+          </a>
+          <a
             href="mailto:rafa@ignaulin.com"
             className="text-sm hover:underline"
             style={{ color: 'var(--text-secondary)' }}
