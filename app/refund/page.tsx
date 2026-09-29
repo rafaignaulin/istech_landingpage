@@ -11,7 +11,7 @@ const read = (f: string) => readFileSync(path.join(process.cwd(), 'content', 'le
 export const metadata: Metadata = {
   title: 'Refund Policy | ISTech',
   description: 'Refunds and cancellations at ISTech (Ignaulin Soluções Tecnológicas LTDA).',
-  alternates: { canonical: 'https://istech.ignaulin.com/refund' },
+  alternates: { canonical: 'https://istechdata.com/refund' },
 }
 
 export default function Refund() {

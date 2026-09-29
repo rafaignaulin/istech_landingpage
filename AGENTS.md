@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents (Claude Code, Antigravity, Codex
 
 ## Project Overview
 
-Landing page for ISTech, a B2B data engineering consultancy founded by Rafael Ignaulin. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istech.ignaulin.com. Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
+Landing page for ISTech, a B2B data engineering consultancy founded by Rafael Ignaulin. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istechdata.com (istech.ignaulin.com redirects). Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
 
 ## Commands
 
@@ -22,7 +22,7 @@ There is no test suite configured.
 - `app/layout.tsx` — root layout with Inter font via `next/font/google`, site-wide metadata, Organization JSON-LD with service catalog, theme initialization script
 - `app/page.tsx` — single-page landing page (sections rendered by components)
 - `app/not-found.tsx` — custom 404 page
-- `app/api/contact/route.ts` — contact form POST endpoint (validates name/email/message, email sending not yet integrated — marked with TODO)
+- `app/api/contact/route.ts` — contact form POST endpoint (validates name/email/message, sends via Resend to contact@istechdata.com)
 
 ### Theming
 

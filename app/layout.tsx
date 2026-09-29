@@ -29,7 +29,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://istech.ignaulin.com'),
+  metadataBase: new URL('https://istechdata.com'),
   title: 'ISTech — B2B Data Engineering Consultancy',
   description: 'Expert data engineering consultancy serving US enterprise clients. Data platform architecture, cloud migrations, AI-integrated analytics, and enterprise consulting.',
   keywords: ['ISTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'ISTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients with operations expanding into Oceania and Europe.',
-    url: 'https://istech.ignaulin.com',
+    url: 'https://istechdata.com',
     siteName: 'ISTech',
     type: 'website',
     locale: 'en_US',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://istech.ignaulin.com',
+    canonical: 'https://istechdata.com',
   },
   icons: {
     icon: '/favicon.ico',
@@ -82,7 +82,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'ISTech',
-              url: 'https://istech.ignaulin.com',
+              url: 'https://istechdata.com',
               description: 'Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe.',
               founder: {
                 '@type': 'Person',
@@ -92,7 +92,7 @@ export default function RootLayout({
               },
               contactPoint: {
                 '@type': 'ContactPoint',
-                email: 'rafa@ignaulin.com',
+                email: 'contact@istechdata.com',
                 contactType: 'sales',
               },
               areaServed: ['US', 'AU', 'NZ', 'EU'],

@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-// Delivery via Resend (official SDK). Needs RESEND_API_KEY and ignaulin.com verified in Resend.
+// Delivery via Resend (official SDK). Needs RESEND_API_KEY and istechdata.com verified in Resend.
 // Without the key the form reports an error (and shows the mailto fallback) instead of
 // pretending to send — the previous version silently dropped every message.
-const FROM = process.env.CONTACT_FROM || 'ISTech site <noreply@ignaulin.com>'
-const TO = process.env.CONTACT_TO || 'contato@ignaulin.com'
+const FROM = process.env.CONTACT_FROM || 'ISTech site <noreply@istechdata.com>'
+const TO = process.env.CONTACT_TO || 'contact@istechdata.com'
 
 export async function POST(request: NextRequest) {
   let body: { name?: string; email?: string; message?: string }

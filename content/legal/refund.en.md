@@ -1,6 +1,6 @@
 # Refund Policy — ISTech
 
-**Effective from:** 2026-09-28
+**Effective from:** 2026-09-29
 
 
 ## 1. Services under a signed contract
@@ -27,10 +27,10 @@ time for the credit to appear on your statement depends on your card issuer.
 
 ## 5. How to request
 
-Email contact@ignaulin.com with the email address used for the purchase and the date
+Email contact@istechdata.com with the email address used for the purchase and the date
 of the charge.
 
 ## 6. Contact
 
 IGNAULIN SOLUCOES TECNOLOGICAS LTDA · CNPJ 49.181.911/0001-51 · Rua Osvaldo Cruz, 1138 E, São Cristóvão, Chapecó/SC, CEP 89803-360, Brazil ·
-contact@ignaulin.com
+contact@istechdata.com

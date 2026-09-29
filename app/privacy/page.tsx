@@ -11,7 +11,7 @@ const read = (f: string) => readFileSync(path.join(process.cwd(), 'content', 'le
 export const metadata: Metadata = {
   title: 'Privacy Policy — ISTech',
   description: 'How ISTech (Ignaulin Soluções Tecnológicas LTDA) handles personal data sent through this site.',
-  alternates: { canonical: 'https://istech.ignaulin.com/privacy' },
+  alternates: { canonical: 'https://istechdata.com/privacy' },
 }
 
 export default function Privacy() {

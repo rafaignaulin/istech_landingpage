@@ -1,6 +1,6 @@
 # Privacy Policy — ISTech
 
-**Effective from:** 2026-09-28
+**Effective from:** 2026-09-29
 
 
 ## 1. Who we are
@@ -11,7 +11,7 @@ data described here, under the Brazilian General Data Protection Law (LGPD, Law 
 
 ## 2. What we collect
 
-This site (https://istech.ignaulin.com) does not use cookies, analytics or tracking. We only receive the
+This site (https://istechdata.com) does not use cookies, analytics or tracking. We only receive the
 personal data you choose to send us — your **name, email address and message** — when you
 use the contact form or write to us by email.
 
@@ -39,7 +39,7 @@ contact, unless a contract requires longer (for example, for tax records).
 ## 6. Your rights
 
 Under LGPD art. 18 you can ask us to confirm whether we hold your data, access it, correct it,
-delete it, or learn who we shared it with. Write to **privacy@ignaulin.com**. You can
+delete it, or learn who we shared it with. Write to **privacy@istechdata.com**. You can
 also complain to Brazil's data protection authority (ANPD, www.gov.br/anpd).
 
 ## 7. Changes

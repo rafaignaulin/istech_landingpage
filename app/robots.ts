@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://istech.ignaulin.com/sitemap.xml',
+    sitemap: 'https://istechdata.com/sitemap.xml',
   }
 }

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'For recruiters, hiring managers and procurement: how to contract ISTech as an international vendor, engagement models, tax and compliance by country, and track record.',
   alternates: {
-    canonical: 'https://istech.ignaulin.com/how-we-work',
+    canonical: 'https://istechdata.com/how-we-work',
   },
 }
 
@@ -22,7 +22,7 @@ export default function HowWeWork() {
           <br />
           Santa Catarina, Brazil
           <br />
-          istech.ignaulin.com
+          istechdata.com
         </div>
       </div>
 
@@ -350,9 +350,9 @@ export default function HowWeWork() {
             <span>Founder and Principal Data Engineer, ISTech</span>
           </div>
           <div className={styles.links}>
-            <a href="mailto:rafa@ignaulin.com">rafa@ignaulin.com</a>
+            <a href="mailto:contact@istechdata.com">contact@istechdata.com</a>
             <br />
-            <a href="https://istech.ignaulin.com">istech.ignaulin.com</a>
+            <a href="https://istechdata.com">istechdata.com</a>
             <br />
             <a href="https://www.linkedin.com/in/rafa-ignaulin/">linkedin.com/in/rafa-ignaulin</a>
           </div>

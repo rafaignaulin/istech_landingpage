@@ -10,6 +10,17 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    // Old address → the company domain (istechdata.com), keeping the path.
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'istech.ignaulin.com' }],
+        destination: 'https://istechdata.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

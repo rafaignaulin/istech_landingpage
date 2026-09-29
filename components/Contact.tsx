@@ -63,14 +63,14 @@ export default function Contact() {
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-10">
           <a
-            href="mailto:rafa@ignaulin.com"
+            href="mailto:contact@istechdata.com"
             className="card flex items-center gap-3 hover:border-accent transition-colors"
             style={{ borderColor: 'var(--border-color)' }}
           >
             <span style={{ color: 'var(--accent)' }}><MailIcon /></span>
             <div>
               <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Email</p>
-              <p className="text-sm" style={{ color: 'var(--accent)' }}>rafa@ignaulin.com</p>
+              <p className="text-sm" style={{ color: 'var(--accent)' }}>contact@istechdata.com</p>
             </div>
           </a>
           <a

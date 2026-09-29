@@ -1,6 +1,6 @@
 # Política de Privacidade — ISTech
 
-**Vigência a partir de:** 2026-09-28
+**Vigência a partir de:** 2026-09-29
 
 
 ## 1. Quem somos
@@ -11,7 +11,7 @@ Geral de Proteção de Dados (LGPD, Lei 13.709/2018).
 
 ## 2. O que coletamos
 
-Este site (https://istech.ignaulin.com) não usa cookies, analytics nem rastreamento. Só recebemos os dados
+Este site (https://istechdata.com) não usa cookies, analytics nem rastreamento. Só recebemos os dados
 que você decide nos enviar — **nome, e-mail e mensagem** — pelo formulário de contato ou por
 e-mail.
 
@@ -39,7 +39,7 @@ contato, salvo se um contrato exigir prazo maior (por exemplo, registros fiscais
 ## 6. Seus direitos
 
 Pela LGPD art. 18, você pode pedir confirmação de que temos seus dados, acesso, correção,
-eliminação ou saber com quem os compartilhamos. Escreva para **privacy@ignaulin.com**.
+eliminação ou saber com quem os compartilhamos. Escreva para **privacy@istechdata.com**.
 Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD, www.gov.br/anpd).
 
 ## 7. Alterações

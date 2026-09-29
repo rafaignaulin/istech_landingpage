@@ -1,6 +1,6 @@
 # Política de Reembolso — ISTech
 
-**Vigência a partir de:** 2026-09-28
+**Vigência a partir de:** 2026-09-29
 
 
 ## 1. Serviços com contrato assinado
@@ -27,10 +27,10 @@ Pagamentos com cartão são estornados no mesmo cartão, pelo nosso processador 
 
 ## 5. Como pedir
 
-Escreva para contact@ignaulin.com informando o e-mail usado na compra e a data da
+Escreva para contact@istechdata.com informando o e-mail usado na compra e a data da
 cobrança.
 
 ## 6. Contato
 
 IGNAULIN SOLUCOES TECNOLOGICAS LTDA · CNPJ 49.181.911/0001-51 · Rua Osvaldo Cruz, 1138 E, São Cristóvão, Chapecó/SC, CEP 89803-360 ·
-contact@ignaulin.com
+contact@istechdata.com

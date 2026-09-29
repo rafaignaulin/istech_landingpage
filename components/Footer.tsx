@@ -36,7 +36,7 @@ export default function Footer() {
             {t.footer.refund}
           </a>
           <a
-            href="mailto:rafa@ignaulin.com"
+            href="mailto:contact@istechdata.com"
             className="text-sm hover:underline"
             style={{ color: 'var(--text-secondary)' }}
           >
