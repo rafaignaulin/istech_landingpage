@@ -32,5 +32,5 @@ of the charge.
 
 ## 6. Contact
 
-IGNAULIN SOLUCOES TECNOLOGICAS LTDA · CNPJ 49.181.911/0001-51 · Rua Osvaldo Cruz, 1138 E, São Cristóvão, Chapecó/SC, CEP 89803-360, Brazil ·
+IGNAULIN SOLUCOES TECNOLOGICAS LTDA · CNPJ 49.181.911/0001-51 ·
 contact@istechdata.com

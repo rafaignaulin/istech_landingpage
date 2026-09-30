@@ -6,7 +6,7 @@
 ## 1. Who we are
 
 **IGNAULIN SOLUCOES TECNOLOGICAS LTDA** (brand: ISTech), a Brazilian company registered under
-CNPJ **49.181.911/0001-51**, Rua Osvaldo Cruz, 1138 E, São Cristóvão, Chapecó/SC, CEP 89803-360, Brazil, is the controller of the personal
+CNPJ **49.181.911/0001-51**, is the controller of the personal
 data described here, under the Brazilian General Data Protection Law (LGPD, Law 13.709/2018).
 
 ## 2. What we collect

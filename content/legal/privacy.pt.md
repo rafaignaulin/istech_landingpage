@@ -6,7 +6,7 @@
 ## 1. Quem somos
 
 **IGNAULIN SOLUCOES TECNOLOGICAS LTDA** (marca: ISTech), CNPJ **49.181.911/0001-51**,
-Rua Osvaldo Cruz, 1138 E, São Cristóvão, Chapecó/SC, CEP 89803-360, é a controladora dos dados pessoais descritos aqui, nos termos da Lei
+é a controladora dos dados pessoais descritos aqui, nos termos da Lei
 Geral de Proteção de Dados (LGPD, Lei 13.709/2018).
 
 ## 2. O que coletamos
