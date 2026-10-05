@@ -14,7 +14,8 @@ html {
   --text-secondary: #aeb8cc;
   --text-tertiary: #7c8598;
   --border-color: #232e48;
-  --accent: #2e63eb;
+  --accent: #6b93ff; /* text accent on dark: AA contrast (was #2e63eb, 3.6:1) */
+  --accent-solid: #2e63eb; /* filled backgrounds (white text) */
   --accent-hover: #4c7cf0;
   --verified: #29b37b;
   --wordmark: #ffffff;
@@ -30,6 +31,7 @@ html {
   --text-tertiary: #7c8598;
   --border-color: #dee3ec;
   --accent: #2e63eb;
+  --accent-solid: #2e63eb;
   --accent-hover: #1a3fae;
   --verified: #1f9463;
   --wordmark: #16204a;
@@ -71,7 +73,7 @@ body {
 
   .btn-primary {
     @apply px-6 py-3 rounded-lg font-semibold transition-colors duration-200;
-    background-color: var(--accent);
+    background-color: var(--accent-solid);
     color: white;
   }
 
@@ -91,7 +93,7 @@ body {
   }
 
   .btn-secondary:hover {
-    background-color: var(--accent);
+    background-color: var(--accent-solid);
     color: white;
   }
 

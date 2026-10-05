@@ -30,9 +30,10 @@ Dark/light mode via `lib/theme-provider.tsx` + `lib/locale-provider.tsx` (i18n s
 
 ### SEO
 
-- **Metadata API** — title, description, keywords, OG/Twitter cards (summary, not summary_large_image), canonical URL, googleBot directives
+- **Metadata API** — title, description, keywords, OG/Twitter cards (`summary_large_image`, image from `app/opengraph-image.tsx` + `app/twitter-image.tsx`), canonical URL, googleBot directives
 - **JSON-LD** — Organization schema with founder Person, contactPoint, areaServed (`US`, `AU`, `NZ`, `EU`), and `hasOfferCatalog` with 4 service offerings (Data Platform Architecture, Cloud & Infrastructure, AI & LLM Integration, Enterprise Consulting)
 - **`app/sitemap.ts`** — single-page sitemap (homepage only, no fragment URLs)
+- **Analytics** — Cloudflare Web Analytics beacon at the end of `<body>` in `app/layout.tsx` (token for the istechdata.com zone; cookieless, no consent banner). Verify SEO with `~/www/sites/seo-check.mjs` and `lighthouse-check.sh`.
 - **`app/robots.ts`** — allow all, disallow `/api/`, sitemap URL
 - **Security headers** in `next.config.mjs` — HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy
 

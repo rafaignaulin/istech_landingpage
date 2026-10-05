@@ -12,9 +12,9 @@ export default function Hero() {
         <div className="flex justify-center mb-6">
           <Wordmark size="hero" />
         </div>
-        <p className="text-xl md:text-2xl mb-4 font-medium" style={{ color: 'var(--text-secondary)' }}>
+        <h1 className="text-xl md:text-2xl mb-4 font-medium" style={{ color: 'var(--text-secondary)' }}>
           {t.hero.subtitle}
-        </p>
+        </h1>
         <p className="text-base md:text-lg mb-12 max-w-2xl mx-auto leading-relaxed" style={{ color: 'var(--text-tertiary)' }}>
           {t.hero.description}
         </p>

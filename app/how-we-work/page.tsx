@@ -4,7 +4,7 @@ import styles from './page.module.css'
 export const metadata: Metadata = {
   title: 'Working with ISTech — Vendor Overview',
   description:
-    'For recruiters, hiring managers and procurement: how to contract ISTech as an international vendor, engagement models, tax and compliance by country, and track record.',
+    'How to contract ISTech as an international vendor: engagement models, tax and compliance by country, and track record.',
   alternates: {
     canonical: 'https://istechdata.com/how-we-work',
   },

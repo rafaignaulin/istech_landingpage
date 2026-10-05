@@ -22,7 +22,7 @@ export default function Privacy() {
       </article>
       <hr className={styles.rule} />
       <article className={styles.doc} lang="pt-BR">
-        <ReactMarkdown>{read('privacy.pt.md')}</ReactMarkdown>
+        <ReactMarkdown components={{ h1: 'h2' }}>{read('privacy.pt.md')}</ReactMarkdown>
       </article>
     </main>
   )

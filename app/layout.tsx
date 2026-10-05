@@ -31,7 +31,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://istechdata.com'),
   title: 'ISTech — B2B Data Engineering Consultancy',
-  description: 'Expert data engineering consultancy serving US enterprise clients. Data platform architecture, cloud migrations, AI-integrated analytics, and enterprise consulting.',
+  description: 'Data engineering consultancy for US enterprise clients: data platform architecture, cloud migrations and AI-integrated analytics.',
   keywords: ['ISTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
   authors: [{ name: 'Rafael Ignaulin' }],
   creator: 'Rafael Ignaulin',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'ISTech — B2B Data Engineering Consultancy',
     description: 'Expert data engineering consultancy serving US enterprise clients.',
   },
@@ -134,6 +134,12 @@ export default function RootLayout({
             <Footer />
           </LocaleProvider>
         </ThemeProvider>
+        {/* Cloudflare Web Analytics (cookieless) */}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={JSON.stringify({ token: 'a75bd663b97d4e14b94fb576d3283783' })}
+        />
       </body>
     </html>
   )
