@@ -28,12 +28,12 @@ html {
   --bg-secondary: #ffffff;
   --text-primary: #101728;
   --text-secondary: #4c5568;
-  --text-tertiary: #7c8598;
+  --text-tertiary: #5b6477;
   --border-color: #dee3ec;
-  --accent: #2e63eb;
+  --accent: #2a58cf;
   --accent-solid: #2e63eb;
   --accent-hover: #1a3fae;
-  --verified: #1f9463;
+  --verified: #17744c;
   --wordmark: #16204a;
   --wordmark-accent: #2e63eb;
 }
