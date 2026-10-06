@@ -10,17 +10,8 @@ const nextConfig = {
       },
     ],
   },
-  async redirects() {
-    // Old address → the company domain (istechdata.com), keeping the path.
-    return [
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'istech.ignaulin.com' }],
-        destination: 'https://istechdata.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
+  // Host redirects (istech.ignaulin.com → istechdata.com, www → apex) live in Cloudflare
+  // (Redirect Rules), not here — Vercel only hosts the app.
   async headers() {
     return [
       {
