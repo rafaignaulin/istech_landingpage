@@ -1,6 +1,6 @@
 # Privacy Policy — ISTech
 
-**Effective from:** 2026-09-29
+**Effective from:** 2026-10-07
 
 
 ## 1. Who we are
@@ -31,7 +31,17 @@ enquiries (LGPD art. 7, IX). We do not sell your data or use it for advertising.
 - Resend, Inc. (USA) — delivers contact-form messages to our inbox.
 
 These providers are in the United States, so your data is transferred internationally,
-under their standard contractual terms (LGPD art. 33).
+under LGPD art. 33. Where the transfer relies on standard contractual clauses, we use the
+clauses approved by Brazil's ANPD (Resolução CD/ANPD nº 19/2024) or
+another basis listed in art. 33; a provider's own terms are not a substitute for them.
+
+### Business contacts and outreach
+
+When we write to a company about our services, we may use a business contact's name, work
+email address and role. We take them from the company's public inbox or website (for example
+a contact or sales address). Purpose: a short business introduction, nothing else. Legal
+basis: legitimate interest (LGPD art. 7, IX). Every message can be answered with "stop" or
+"unsubscribe", and we then add the address to a suppression list and do not write again.
 
 ## 5. How long we keep it
 

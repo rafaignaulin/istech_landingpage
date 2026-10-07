@@ -1,6 +1,6 @@
 # Política de Privacidade — ISTech
 
-**Vigência a partir de:** 2026-09-29
+**Vigência a partir de:** 2026-10-07
 
 
 ## 1. Quem somos
@@ -31,7 +31,17 @@ contatos comerciais (LGPD art. 7º, IX). Não vendemos seus dados nem os usamos 
 - Resend, Inc. (EUA) — entrega as mensagens do formulário de contato na nossa caixa.
 
 Esses fornecedores ficam nos Estados Unidos, então há transferência internacional de dados,
-com base nas cláusulas contratuais padrão deles (LGPD art. 33).
+nos termos do art. 33 da LGPD. Quando a base for cláusulas-padrão contratuais, usamos as
+aprovadas pela ANPD (Resolução CD/ANPD nº 19/2024) ou outra base
+do art. 33; os termos próprios do fornecedor não as substituem.
+
+### Contatos comerciais e prospecção
+
+Ao escrever a uma empresa sobre nossos serviços, podemos usar nome, e-mail profissional e cargo
+de um contato comercial, obtidos da caixa pública ou do site da empresa (por exemplo, um
+endereço de contato ou comercial). Finalidade: uma breve apresentação comercial, nada mais.
+Base legal: legítimo interesse (LGPD art. 7º, IX). Basta responder "parar" ou "descadastrar"
+a qualquer mensagem: incluímos o endereço numa lista de supressão e não escrevemos de novo.
 
 ## 5. Por quanto tempo guardamos
 

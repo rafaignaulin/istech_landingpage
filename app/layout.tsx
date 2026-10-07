@@ -90,7 +90,7 @@ export default function RootLayout({
                 email: 'contact@istechdata.com',
                 contactType: 'sales',
               },
-              areaServed: ['US', 'AU', 'NZ', 'GB', 'EU'],
+              areaServed: ['US', 'AU', 'NZ', 'GB', 'EU', 'BR'],
               knowsAbout: [
                 'Data Engineering', 'Spark', 'Databricks', 'AWS', 'Kafka',
                 'Airflow', 'Terraform', 'AI', 'MCP Servers', 'LLM Integration',
