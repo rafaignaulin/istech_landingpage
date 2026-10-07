@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents (Claude Code, Antigravity, Codex
 
 ## Project Overview
 
-Landing page for ISTech, a data platform and AI engineering firm founded by Rafael Ignaulin (Founder and Principal). Copy sells the company's fixed-scope packages, never Rafael as a seat; no client names anywhere. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istechdata.com (istech.ignaulin.com redirects). Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
+Landing page for ISTech, a data platform and AI engineering firm founded by Rafael Ignaulin (Founder and Principal). Copy sells the company's fixed-scope packages, never Rafael as a seat; client names allowed: Nike and Inter&Co only (P-53, 2026-10-07); never the contracting chain, never internals. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istechdata.com (istech.ignaulin.com redirects). Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
 
 ## Commands
 

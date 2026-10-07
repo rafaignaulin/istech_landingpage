@@ -10,6 +10,7 @@
     "title": "ISTech",
     "subtitle": "Engenharia de plataformas de dados e IA",
     "description": "Deixamos plataformas Databricks e Spark mais baratas de rodar e mais confiáveis, e colocamos por cima agentes de IA em que seu time pode confiar. Para times de dados nos Estados Unidos primeiro, além de Austrália, Nova Zelândia, Reino Unido e Europa. Escopo fechado, preço fechado, entrega remota. Atendendo clientes enterprise desde 2023.",
+    "proof": "Clientes incluem Nike e Inter&Co.",
     "cta": "Agende uma conversa de 30 minutos",
     "learnMore": "Veja nossos pacotes"
   },
@@ -58,27 +59,32 @@
   "results": {
     "eyebrow": "Prova",
     "title": "Resultados selecionados",
-    "description": "Trabalhos anonimizados dos nossos projetos. Nunca citamos clientes.",
+    "description": "Trabalhos dos nossos projetos. Clientes incluem Nike e Inter&Co.",
     "items": [
       {
         "metric": "98%",
-        "title": "Menos leitura de dados em um job Spark diário",
+        "title": "Menos leitura de dados em um job Spark diário (Nike)",
         "description": "Um job diário lia vários terabytes por execução, a maior parte arquivos pequenos de eventos que nunca usava. Corrigimos o partition e column pruning e redesenhamos o caminho de leitura conforme os filtros do job. Hoje ele lê 98% menos dados por execução."
       },
       {
         "metric": "Semanas → horas",
-        "title": "Relatórios de testes A/B automatizados",
+        "title": "Relatórios de testes A/B automatizados (Nike)",
         "description": "Cada resultado de experimento era montado à mão em planilhas. Construímos um pipeline no Airflow que calcula as métricas e os testes estatísticos a partir de configuração declarativa e publica o resultado. Mesmo método em todo teste, horas em vez de semanas."
       },
       {
         "metric": "1 tabela",
-        "title": "Uma tabela multi-granularidade no lugar de muitas agregadas",
+        "title": "Uma tabela multi-granularidade no lugar de muitas agregadas (Nike)",
         "description": "Cada dashboard tinha sua própria tabela agregada e os números não batiam. Uma tabela construída com GROUPING SETS e ROLLUP no Spark agora guarda todas as granularidades que os consumidores precisam. Outros times adotaram o padrão."
       },
       {
         "metric": "45M+",
-        "title": "Plataforma de segmentação de clientes",
+        "title": "Plataforma de segmentação de clientes (Inter&Co)",
         "description": "Um lakehouse medallion em S3 e Delta Lake com ingestão CDC via Kafka, qualidade de dados como código que aborta cargas ruins, e um caminho de atualização quase em tempo real entre os ciclos batch. Atende mais de 45 milhões de clientes."
+      },
+      {
+        "metric": "Agente",
+        "title": "Agente analítico em produção (Nike)",
+        "description": "Um agente analítico em linguagem natural rodando em produção que pontua a própria confiança, mais um servidor MCP para os engenheiros consultarem os mesmos dados nas suas ferramentas."
       }
     ]
   },

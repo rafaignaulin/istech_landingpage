@@ -10,6 +10,7 @@
     "title": "ISTech",
     "subtitle": "Data platform and AI engineering",
     "description": "We make Databricks and Spark platforms cheaper to run and more reliable, then put AI agents on top that your team can trust. For data teams in the United States first, plus Australia, New Zealand, the United Kingdom and Europe. Fixed scope, fixed price, delivered remotely. Delivering for enterprise clients since 2023.",
+    "proof": "Clients include Nike and Inter&Co.",
     "cta": "Book a 30-minute scoping call",
     "learnMore": "See our packages"
   },
@@ -58,27 +59,32 @@
   "results": {
     "eyebrow": "Proof",
     "title": "Selected results",
-    "description": "Anonymized work from our engagements. We never name clients.",
+    "description": "Work from our engagements. Clients include Nike and Inter&Co.",
     "items": [
       {
         "metric": "98%",
-        "title": "Fewer data reads on a daily Spark job",
+        "title": "Fewer data reads on a daily Spark job (Nike)",
         "description": "A daily job scanned multiple terabytes per run, mostly small event files it never used. We fixed partition and column pruning and reshaped the read path around how the job filters. It now reads 98% less data per run."
       },
       {
         "metric": "Weeks → hours",
-        "title": "A/B test reporting, automated",
+        "title": "A/B test reporting, automated (Nike)",
         "description": "Every experiment readout was assembled by hand in spreadsheets. We built an Airflow pipeline that computes the metrics and statistical tests from declarative config and publishes the readout. Same method on every test, hours instead of weeks."
       },
       {
         "metric": "1 table",
-        "title": "One multi-grain table instead of many aggregates",
+        "title": "One multi-grain table instead of many aggregates (Nike)",
         "description": "Each dashboard had its own aggregate table and the numbers disagreed. One table built with Spark GROUPING SETS and ROLLUP now holds every grain the consumers need. Other teams adopted the pattern."
       },
       {
         "metric": "45M+",
-        "title": "Customer segmentation platform",
+        "title": "Customer segmentation platform (Inter&Co)",
         "description": "A medallion lakehouse on S3 and Delta Lake with CDC ingestion through Kafka, data quality as code that aborts bad loads, and a near-real-time update path between batch cycles. It serves 45M+ customers."
+      },
+      {
+        "metric": "Agent",
+        "title": "Production analytics agent (Nike)",
+        "description": "A natural-language analytics agent running in production that scores its own confidence, plus an MCP server so engineers query the same data from their tools."
       }
     ]
   },

@@ -87,7 +87,7 @@ export default function HowWeWork() {
           <dt>Founded</dt>
           <dd>2023</dd>
           <dt>Clients</dt>
-          <dd>Enterprise clients, United States first</dd>
+          <dd>Enterprise clients including Nike and Inter&amp;Co, in the United States and Brazil</dd>
           <dt>Stack</dt>
           <dd>
             Databricks, Apache Spark, AWS, Azure, Airflow, Kafka, dbt, Terraform, Kubernetes, LLM
@@ -300,7 +300,7 @@ export default function HowWeWork() {
         <div className={styles.metrics}>
           <div>
             <div className={styles.num}>98%</div>
-            <div className={styles.lbl}>Fewer Spark data reads on a multi-terabyte daily job</div>
+            <div className={styles.lbl}>Fewer Spark data reads on a multi-terabyte daily job (Nike)</div>
           </div>
           <div>
             <div className={styles.num}>Billions</div>
@@ -308,11 +308,11 @@ export default function HowWeWork() {
           </div>
           <div>
             <div className={styles.num}>Weeks → hours</div>
-            <div className={styles.lbl}>A/B test reporting, fully automated end to end</div>
+            <div className={styles.lbl}>A/B test reporting, fully automated end to end (Nike)</div>
           </div>
           <div>
             <div className={styles.num}>45M+</div>
-            <div className={styles.lbl}>Customers served by a near real time segmentation platform</div>
+            <div className={styles.lbl}>Customers served by a near real time segmentation platform (Inter&amp;Co)</div>
           </div>
         </div>
         <p className={styles.certs}>

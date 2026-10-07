@@ -15,8 +15,11 @@ export default function Hero() {
         <h1 className="text-xl md:text-2xl mb-4 font-medium" style={{ color: 'var(--text-secondary)' }}>
           {t.hero.subtitle}
         </h1>
-        <p className="text-base md:text-lg mb-12 max-w-2xl mx-auto leading-relaxed" style={{ color: 'var(--text-tertiary)' }}>
+        <p className="text-base md:text-lg mb-6 max-w-2xl mx-auto leading-relaxed" style={{ color: 'var(--text-tertiary)' }}>
           {t.hero.description}
+        </p>
+        <p className="text-sm mb-8 font-medium" style={{ color: 'var(--text-secondary)' }}>
+          {t.hero.proof}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           {/* TODO: point to a booking link (Cal.com or similar) once one exists; the contact form is the fallback. */}
