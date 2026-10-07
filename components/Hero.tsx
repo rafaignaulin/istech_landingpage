@@ -19,10 +19,11 @@ export default function Hero() {
           {t.hero.description}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* TODO: point to a booking link (Cal.com or similar) once one exists; the contact form is the fallback. */}
           <a href="#contact" className="btn-primary inline-flex items-center justify-center gap-2">
             {t.hero.cta} →
           </a>
-          <a href="#about" className="btn-secondary inline-flex items-center justify-center gap-2">
+          <a href="#services" className="btn-secondary inline-flex items-center justify-center gap-2">
             {t.hero.learnMore}
           </a>
         </div>

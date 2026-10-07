@@ -42,24 +42,7 @@ export default function Footer() {
           >
             {t.footer.email}
           </a>
-          <a
-            href="https://www.linkedin.com/in/rafa-ignaulin/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm hover:underline"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/rafaignaulin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm hover:underline"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            GitHub
-          </a>
+          {/* TODO: ISTech company LinkedIn URL goes here once confirmed. No personal profiles. */}
         </div>
       </div>
     </footer>

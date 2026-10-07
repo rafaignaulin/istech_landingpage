@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents (Claude Code, Antigravity, Codex
 
 ## Project Overview
 
-Landing page for ISTech, a B2B data engineering consultancy founded by Rafael Ignaulin. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istechdata.com (istech.ignaulin.com redirects). Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
+Landing page for ISTech, a data platform and AI engineering firm founded by Rafael Ignaulin (Founder and Principal). Copy sells the company's fixed-scope packages, never Rafael as a seat; no client names anywhere. Built with Next.js 14 (App Router), React 18, TypeScript, and Tailwind CSS. Deployed on Vercel at istechdata.com (istech.ignaulin.com redirects). Part of the ignaulin.com ecosystem alongside blog.ignaulin.com (blog) and rafa.ignaulin.com (portfolio).
 
 ## Commands
 
@@ -31,7 +31,7 @@ Dark/light mode via `lib/theme-provider.tsx` + `lib/locale-provider.tsx` (i18n s
 ### SEO
 
 - **Metadata API** — title, description, keywords, OG/Twitter cards (`summary_large_image`, image from `app/opengraph-image.tsx` + `app/twitter-image.tsx`), canonical URL, googleBot directives
-- **JSON-LD** — Organization schema with founder Person, contactPoint, areaServed (`US`, `AU`, `NZ`, `EU`), and `hasOfferCatalog` with 4 service offerings (Data Platform Architecture, Cloud & Infrastructure, AI & LLM Integration, Enterprise Consulting)
+- **JSON-LD** — Organization schema with founder Person (Founder and Principal), contactPoint, areaServed (`US`, `BR`), and `hasOfferCatalog` with the 5 fixed-scope packages A to E (audit, serving layer, agent pilot, pipeline sprint, retainer)
 - **`app/sitemap.ts`** — single-page sitemap (homepage only, no fragment URLs)
 - **Analytics** — Cloudflare Web Analytics beacon at the end of `<body>` in `app/layout.tsx` (token for the istechdata.com zone; cookieless, no consent banner). Verify SEO with `~/www/sites/seo-check.mjs` and `lighthouse-check.sh`.
 - **`app/robots.ts`** — allow all, disallow `/api/`, sitemap URL

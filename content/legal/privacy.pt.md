@@ -11,9 +11,11 @@ Geral de Proteção de Dados (LGPD, Lei 13.709/2018).
 
 ## 2. O que coletamos
 
-Este site (https://istechdata.com) não usa cookies, analytics nem rastreamento. Só recebemos os dados
-que você decide nos enviar — **nome, e-mail e mensagem** — pelo formulário de contato ou por
-e-mail.
+Este site (https://istechdata.com) não usa cookies nem rastreadores de publicidade. Ele usa o
+Cloudflare Web Analytics, que não usa cookies e gera apenas estatísticas agregadas de visitas
+(páginas vistas, origem, país, navegador), sem identificar visitantes individuais. Fora isso, só
+recebemos os dados que você decide nos enviar — **nome, e-mail e mensagem** — pelo formulário de
+contato ou por e-mail.
 
 ## 3. Para que usamos
 
@@ -24,7 +26,7 @@ contatos comerciais (LGPD art. 7º, IX). Não vendemos seus dados nem os usamos 
 ## 4. Quem trata os dados por nós
 
 - Vercel Inc. (EUA) — hospeda este site.
-- Cloudflare, Inc. (EUA) — DNS e encaminhamento de e-mail.
+- Cloudflare, Inc. (EUA) — DNS, encaminhamento de e-mail e Web Analytics (agregado, sem cookies).
 - Google LLC (EUA) — e-mail.
 - Resend, Inc. (EUA) — entrega as mensagens do formulário de contato na nossa caixa.
 

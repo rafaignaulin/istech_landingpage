@@ -1,65 +1,118 @@
 {
   "nav": {
     "about": "About",
-    "services": "Services",
+    "services": "Packages",
+    "results": "Results",
     "mission": "Mission",
     "contact": "Contact"
   },
   "hero": {
     "title": "ISTech",
-    "subtitle": "B2B Data Engineering Consultancy",
-    "description": "Expert data engineering consultancy serving US enterprise clients, with operations expanding into Oceania and Europe. Currently delivering for Nike and Inter&Co: production-grade data platforms, cloud migrations, and AI-integrated analytics.",
-    "cta": "Get Started",
-    "learnMore": "Learn More"
+    "subtitle": "Data platform and AI engineering",
+    "description": "We make Databricks and Spark platforms cheaper to run and more reliable, then put AI agents on top that your team can trust. Fixed scope, fixed price, delivered remotely. Delivering for enterprise clients in the United States and Brazil since 2023.",
+    "cta": "Book a 30-minute scoping call",
+    "learnMore": "See our packages"
   },
   "about": {
-    "title": "Why Partner with ISTech?",
-    "description": "We deliver end-to-end data engineering solutions to enterprise clients, spanning Data Warehouses, Data Lakes, and Lakehouses on AWS, Azure, Spark, Kafka, Airflow, and Terraform.",
+    "title": "A data platform and AI engineering firm",
+    "description": "ISTech sells outcomes, not hours. Every engagement is a package with a fixed scope, a fixed price and a written deliverable. Work runs async by default: one kickoff call, one written update a week, one handover call. Founded in 2023 and led by Rafael Ignaulin, Founder and Principal.",
+    "forLabel": "For",
     "cards": [
       {
-        "title": "Data Platform Architecture",
-        "description": "Design and build production-grade data platforms: Lakehouses, Data Warehouses, and real-time streaming systems."
+        "tag": "Start here",
+        "title": "Databricks cost and reliability audit",
+        "timeline": "1 week",
+        "for": "Teams on Databricks or Spark whose compute bill grows faster than their data, or whose jobs fail too often.",
+        "description": "We review your 10 most expensive or least reliable jobs and deliver a written report with every finding ranked by expected saving and effort, plus a fixed price to implement the top fixes. If day one shows no credible saving, you pay nothing. The fee is credited toward the fixes if you sign within 30 days."
       },
       {
-        "title": "Cloud & Infrastructure",
-        "description": "AWS, Azure, and Databricks — migrations, optimization, and IaC with Terraform and Kubernetes."
+        "tag": "Build",
+        "title": "Analytics serving layer",
+        "timeline": "3 to 4 weeks",
+        "for": "Teams where every dashboard has its own aggregate table and the numbers disagree.",
+        "description": "One multi-grain table with a documented metric catalog, data-quality checks on the build, and up to 3 dashboards migrated to it."
       },
       {
-        "title": "AI & Agentic Systems",
-        "description": "LLM integration, MCP servers, RAG pipelines, and AI-powered data products on modern data stacks."
+        "tag": "Build",
+        "title": "Analytics agent pilot",
+        "timeline": "4 to 6 weeks",
+        "for": "Teams that want people to ask data questions in plain language without trusting a chatbot blindly.",
+        "description": "A natural-language to SQL agent on your warehouse for one domain, with confidence scoring against validated questions, low-confidence alerts, and tracing and feedback in MLflow. Optional MCP server so engineers query the same data from their IDE."
       },
       {
-        "title": "Enterprise Consulting",
-        "description": "Data strategy, architecture design, and fractional principal engineering for data-driven organizations."
+        "tag": "Build",
+        "title": "Pipeline automation sprint",
+        "timeline": "2 to 3 weeks",
+        "for": "A recurring report or process still done by hand in spreadsheets.",
+        "description": "That process turned into an orchestrated pipeline on Airflow or Databricks Workflows, with data-quality checks and alerting."
+      },
+      {
+        "tag": "After a package",
+        "title": "Retainer",
+        "timeline": "Monthly",
+        "for": "Clients who finished a package and want ongoing help.",
+        "description": "A fixed monthly block of hours, used async for reviews, fixes and architecture questions. No on-call, no fixed meeting schedule."
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Proof",
+    "title": "Selected results",
+    "description": "Anonymized work from our engagements. We never name clients.",
+    "items": [
+      {
+        "metric": "98%",
+        "title": "Fewer data reads on a daily Spark job",
+        "description": "A daily job scanned multiple terabytes per run, mostly small event files it never used. We fixed partition and column pruning and reshaped the read path around how the job filters. It now reads 98% less data per run."
+      },
+      {
+        "metric": "Weeks → hours",
+        "title": "A/B test reporting, automated",
+        "description": "Every experiment readout was assembled by hand in spreadsheets. We built an Airflow pipeline that computes the metrics and statistical tests from declarative config and publishes the readout. Same method on every test, hours instead of weeks."
+      },
+      {
+        "metric": "1 table",
+        "title": "One multi-grain table instead of many aggregates",
+        "description": "Each dashboard had its own aggregate table and the numbers disagreed. One table built with Spark GROUPING SETS and ROLLUP now holds every grain the consumers need. Other teams adopted the pattern."
+      },
+      {
+        "metric": "In production",
+        "title": "An analytics agent that scores its own confidence",
+        "description": "Plain-language questions turned into SQL against the lakehouse, with each answer checked against validated questions by an LLM judge. Low-confidence answers are flagged, every answer is traced in MLflow, and an MCP server exposes the same data inside engineers' IDEs. In production for an enterprise client."
+      },
+      {
+        "metric": "45M+",
+        "title": "Customer segmentation platform",
+        "description": "A medallion lakehouse on S3 and Delta Lake with CDC ingestion through Kafka, data quality as code that aborts bad loads, and a near-real-time update path between batch cycles. It serves 45M+ customers."
       }
     ]
   },
   "mission": {
-    "title": "From Data to Decisions",
-    "description": "We turn raw data into actionable intelligence using cloud-powered pipelines, ML, and real-time dashboards — empowering your teams to make faster, data-driven decisions.",
-    "cta": "Start Your Project"
+    "title": "Fix the platform, then add AI",
+    "description": "Data platforms tend to cost more and break more every quarter, and an AI agent built on top inherits every flaw underneath. We fix the platform first, then build agents that say when they are not sure. Every package ends with something running in production and a runbook your team can follow.",
+    "cta": "Book a 30-minute scoping call"
   },
   "highlights": {
-    "title": "Why Choose ISTech?",
+    "title": "Why choose ISTech?",
     "items": [
-      "Active engagements: Nike (clickstream data, LLM analytics agent, MCP servers) and Inter&Co (45M+ customer segmentation platform)",
-      "98% Spark data-read reduction on multi-terabyte pipelines and A/B test reporting automated from weeks to hours",
-      "Expert in modern data stack (Spark, Databricks, Kafka, Airflow)",
+      "Delivering for enterprise clients in the United States and Brazil since 2023",
+      "Fixed scope and fixed price on every package. No hourly billing.",
+      "Hands-on with Databricks, Spark, Kafka, Airflow, dbt and Terraform",
       "13+ professional certifications (AWS, Databricks, Azure)",
-      "Operations across 6+ timezones with zero delivery friction",
-      "Founded by a Senior Data Engineer with hands-on enterprise experience"
+      "Async delivery across 6+ timezones",
+      "Founder-led: every engagement is run by Rafael Ignaulin, Founder and Principal"
     ]
   },
   "contact": {
-    "title": "Let's Talk",
-    "description": "Ready to transform your data infrastructure? Reach out and let's discuss your project.",
+    "title": "Book a 30-minute scoping call",
+    "description": "Tell us what your platform costs, what keeps failing, or what you want AI to answer. We reply by email to set up the call.",
     "name": "Name",
     "namePlaceholder": "Your Name",
     "email": "Email",
-    "emailPlaceholder": "Your Email",
+    "emailPlaceholder": "Your work email",
     "message": "Message",
-    "messagePlaceholder": "Tell us about your project",
-    "submit": "Send Message"
+    "messagePlaceholder": "Your stack, the problem, and the package you are considering",
+    "submit": "Request a call"
   },
   "footer": {
     "rights": "All rights reserved.",

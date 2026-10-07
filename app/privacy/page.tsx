@@ -9,7 +9,7 @@ import styles from './page.module.css'
 const read = (f: string) => readFileSync(path.join(process.cwd(), 'content', 'legal', f), 'utf8')
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — ISTech',
+  title: 'Privacy Policy | ISTech',
   description: 'How ISTech (Ignaulin Soluções Tecnológicas LTDA) handles personal data sent through this site.',
   alternates: { canonical: 'https://istechdata.com/privacy' },
 }

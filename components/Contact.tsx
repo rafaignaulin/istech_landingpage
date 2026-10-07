@@ -12,15 +12,6 @@ function MailIcon() {
   )
 }
 
-function LinkIcon() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M10 14 20 4M14 4h6v6" />
-      <path d="M20 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h6" />
-    </svg>
-  )
-}
-
 export default function Contact() {
   const { t } = useLocale()
   const [submitted, setSubmitted] = useState(false)
@@ -73,21 +64,10 @@ export default function Contact() {
               <p className="text-sm" style={{ color: 'var(--accent)' }}>contact@istechdata.com</p>
             </div>
           </a>
-          <a
-            href="https://www.linkedin.com/in/rafa-ignaulin/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card flex items-center gap-3 hover:border-accent transition-colors"
-            style={{ borderColor: 'var(--border-color)' }}
-          >
-            <span style={{ color: 'var(--accent)' }}><LinkIcon /></span>
-            <div>
-              <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>LinkedIn</p>
-              <p className="text-sm" style={{ color: 'var(--accent)' }}>linkedin.com/in/rafa-ignaulin</p>
-            </div>
-          </a>
+          {/* TODO: add the ISTech company LinkedIn page here once its URL is confirmed (never a personal profile). */}
         </div>
 
+        {/* TODO: replace or complement this form with a booking link for the 30-minute scoping call once one exists. */}
         {submitted ? (
           <div className="card text-center py-8">
             <p className="text-lg font-semibold mb-2" style={{ color: 'var(--accent)' }}>

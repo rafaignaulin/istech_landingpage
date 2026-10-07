@@ -11,9 +11,11 @@ data described here, under the Brazilian General Data Protection Law (LGPD, Law 
 
 ## 2. What we collect
 
-This site (https://istechdata.com) does not use cookies, analytics or tracking. We only receive the
-personal data you choose to send us — your **name, email address and message** — when you
-use the contact form or write to us by email.
+This site (https://istechdata.com) does not use cookies or advertising trackers. It uses
+Cloudflare Web Analytics, which is cookieless and reports only aggregated visit statistics
+(pages viewed, referrer, country, browser); it does not identify individual visitors. Beyond
+that, we only receive the personal data you choose to send us — your **name, email address and
+message** — when you use the contact form or write to us by email.
 
 ## 3. Why we use it
 
@@ -24,7 +26,7 @@ enquiries (LGPD art. 7, IX). We do not sell your data or use it for advertising.
 ## 4. Who processes it for us
 
 - Vercel Inc. (USA) — hosts this site.
-- Cloudflare, Inc. (USA) — DNS and email routing.
+- Cloudflare, Inc. (USA) — DNS, email routing and Web Analytics (aggregated, cookieless).
 - Google LLC (USA) — email.
 - Resend, Inc. (USA) — delivers contact-form messages to our inbox.
 

@@ -1,65 +1,118 @@
 {
   "nav": {
     "about": "Sobre",
-    "services": "Serviços",
+    "services": "Pacotes",
+    "results": "Resultados",
     "mission": "Missão",
     "contact": "Contato"
   },
   "hero": {
     "title": "ISTech",
-    "subtitle": "Consultoria B2B em Engenharia de Dados",
-    "description": "Consultoria especializada em engenharia de dados atendendo clientes enterprise nos EUA, com operações em expansão para Oceania e Europa. Atualmente entregando para Nike e Inter&Co: plataformas de dados production-grade, migrações cloud e analytics integrado com IA.",
-    "cta": "Começar",
-    "learnMore": "Saiba Mais"
+    "subtitle": "Engenharia de plataformas de dados e IA",
+    "description": "Deixamos plataformas Databricks e Spark mais baratas de rodar e mais confiáveis, e colocamos por cima agentes de IA em que seu time pode confiar. Escopo fechado, preço fechado, entrega remota. Atendendo clientes enterprise nos Estados Unidos e no Brasil desde 2023.",
+    "cta": "Agende uma conversa de 30 minutos",
+    "learnMore": "Veja nossos pacotes"
   },
   "about": {
-    "title": "Por que a ISTech?",
-    "description": "Entregamos soluções completas de engenharia de dados para clientes enterprise, incluindo Data Warehouses, Data Lakes e Lakehouses em AWS, Azure, Spark, Kafka, Airflow e Terraform.",
+    "title": "Uma empresa de engenharia de plataformas de dados e IA",
+    "description": "A ISTech vende resultados, não horas. Cada projeto é um pacote com escopo fechado, preço fechado e uma entrega por escrito. O trabalho é assíncrono por padrão: uma call de kickoff, uma atualização escrita por semana, uma call de handover. Fundada em 2023 e liderada por Rafael Ignaulin, Founder and Principal.",
+    "forLabel": "Para",
     "cards": [
       {
-        "title": "Arquitetura de Plataformas de Dados",
-        "description": "Design e construção de plataformas de dados em produção: Lakehouses, Data Warehouses e sistemas de streaming em tempo real."
+        "tag": "Comece aqui",
+        "title": "Auditoria de custo e confiabilidade Databricks",
+        "timeline": "1 semana",
+        "for": "Times em Databricks ou Spark cuja conta de compute cresce mais rápido que os dados, ou cujos jobs falham demais.",
+        "description": "Revisamos seus 10 jobs mais caros ou menos confiáveis e entregamos um relatório escrito com cada achado ordenado por economia esperada e esforço, mais um preço fechado para implementar as principais correções. Se o primeiro dia não mostrar uma economia crível, você não paga nada. O valor é abatido das correções se você fechar em até 30 dias."
       },
       {
-        "title": "Cloud & Infraestrutura",
-        "description": "AWS, Azure e Databricks — migrações, otimização e IaC com Terraform e Kubernetes."
+        "tag": "Construção",
+        "title": "Camada de serving analítico",
+        "timeline": "3 a 4 semanas",
+        "for": "Times em que cada dashboard tem sua própria tabela agregada e os números não batem.",
+        "description": "Uma tabela multi-granularidade com catálogo de métricas documentado, checagens de qualidade de dados no build e até 3 dashboards migrados para ela."
       },
       {
-        "title": "IA & Sistemas Agênticos",
-        "description": "Integração com LLMs, servidores MCP, pipelines RAG e produtos de dados com IA em stacks modernos."
+        "tag": "Construção",
+        "title": "Piloto de agente analítico",
+        "timeline": "4 a 6 semanas",
+        "for": "Times que querem fazer perguntas sobre os dados em linguagem natural sem confiar cegamente em um chatbot.",
+        "description": "Um agente de linguagem natural para SQL no seu warehouse, para um domínio, com score de confiança contra perguntas validadas, alertas de baixa confiança, e tracing e feedback no MLflow. Servidor MCP opcional para os engenheiros consultarem os mesmos dados pela IDE."
       },
       {
-        "title": "Consultoria Enterprise",
-        "description": "Estratégia de dados, design de arquitetura e engenharia principal fracionada para organizações orientadas a dados."
+        "tag": "Construção",
+        "title": "Sprint de automação de pipeline",
+        "timeline": "2 a 3 semanas",
+        "for": "Um relatório ou processo recorrente ainda feito à mão em planilhas.",
+        "description": "Esse processo transformado em um pipeline orquestrado no Airflow ou Databricks Workflows, com checagens de qualidade de dados e alertas."
+      },
+      {
+        "tag": "Depois de um pacote",
+        "title": "Retainer",
+        "timeline": "Mensal",
+        "for": "Clientes que concluíram um pacote e querem apoio contínuo.",
+        "description": "Um bloco fixo de horas por mês, usado de forma assíncrona para revisões, correções e dúvidas de arquitetura. Sem plantão, sem agenda fixa de reuniões."
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Prova",
+    "title": "Resultados selecionados",
+    "description": "Trabalhos anonimizados dos nossos projetos. Nunca citamos clientes.",
+    "items": [
+      {
+        "metric": "98%",
+        "title": "Menos leitura de dados em um job Spark diário",
+        "description": "Um job diário lia vários terabytes por execução, a maior parte arquivos pequenos de eventos que nunca usava. Corrigimos o partition e column pruning e redesenhamos o caminho de leitura conforme os filtros do job. Hoje ele lê 98% menos dados por execução."
+      },
+      {
+        "metric": "Semanas → horas",
+        "title": "Relatórios de testes A/B automatizados",
+        "description": "Cada resultado de experimento era montado à mão em planilhas. Construímos um pipeline no Airflow que calcula as métricas e os testes estatísticos a partir de configuração declarativa e publica o resultado. Mesmo método em todo teste, horas em vez de semanas."
+      },
+      {
+        "metric": "1 tabela",
+        "title": "Uma tabela multi-granularidade no lugar de muitas agregadas",
+        "description": "Cada dashboard tinha sua própria tabela agregada e os números não batiam. Uma tabela construída com GROUPING SETS e ROLLUP no Spark agora guarda todas as granularidades que os consumidores precisam. Outros times adotaram o padrão."
+      },
+      {
+        "metric": "Em produção",
+        "title": "Um agente analítico que mede a própria confiança",
+        "description": "Perguntas em linguagem natural viram SQL sobre o lakehouse, e cada resposta é comparada com perguntas validadas por um LLM judge. Respostas de baixa confiança são sinalizadas, toda resposta é rastreada no MLflow, e um servidor MCP expõe os mesmos dados na IDE dos engenheiros. Em produção para um cliente enterprise."
+      },
+      {
+        "metric": "45M+",
+        "title": "Plataforma de segmentação de clientes",
+        "description": "Um lakehouse medallion em S3 e Delta Lake com ingestão CDC via Kafka, qualidade de dados como código que aborta cargas ruins, e um caminho de atualização quase em tempo real entre os ciclos batch. Atende mais de 45 milhões de clientes."
       }
     ]
   },
   "mission": {
-    "title": "De Dados a Decisões",
-    "description": "Transformamos dados brutos em inteligência acionável usando pipelines na nuvem, ML e dashboards em tempo real — capacitando suas equipes a tomar decisões mais rápidas e orientadas por dados.",
-    "cta": "Inicie Seu Projeto"
+    "title": "Primeiro a plataforma, depois a IA",
+    "description": "Plataformas de dados tendem a custar mais e quebrar mais a cada trimestre, e um agente de IA construído por cima herda cada falha que está embaixo. Primeiro corrigimos a plataforma, depois construímos agentes que dizem quando não têm certeza. Todo pacote termina com algo rodando em produção e um runbook que seu time consegue seguir.",
+    "cta": "Agende uma conversa de 30 minutos"
   },
   "highlights": {
     "title": "Por que escolher a ISTech?",
     "items": [
-      "Contratos ativos: Nike (dados de clickstream, agente de analytics com LLM, servidores MCP) e Inter&Co (plataforma de segmentação de 45M+ clientes)",
-      "98% de redução em leituras de dados Spark em pipelines multi-terabyte e relatórios de testes A/B automatizados, de semanas para horas",
-      "Especialistas na stack moderna de dados (Spark, Databricks, Kafka, Airflow)",
+      "Atendendo clientes enterprise nos Estados Unidos e no Brasil desde 2023",
+      "Escopo e preço fechados em todo pacote. Sem cobrança por hora.",
+      "Experiência prática com Databricks, Spark, Kafka, Airflow, dbt e Terraform",
       "13+ certificações profissionais (AWS, Databricks, Azure)",
-      "Operações em 6+ fusos horários sem fricção na entrega",
-      "Fundada por um Engenheiro de Dados Sênior com experiência enterprise hands-on"
+      "Entrega assíncrona em 6+ fusos horários",
+      "Liderada pelo fundador: todo projeto é conduzido por Rafael Ignaulin, Founder and Principal"
     ]
   },
   "contact": {
-    "title": "Vamos Conversar",
-    "description": "Pronto para transformar sua infraestrutura de dados? Entre em contato e vamos discutir seu projeto.",
+    "title": "Agende uma conversa de 30 minutos",
+    "description": "Conte quanto sua plataforma custa, o que vive falhando, ou o que você quer que a IA responda. Respondemos por e-mail para marcar a conversa.",
     "name": "Nome",
     "namePlaceholder": "Seu Nome",
     "email": "Email",
-    "emailPlaceholder": "Seu Email",
+    "emailPlaceholder": "Seu e-mail corporativo",
     "message": "Mensagem",
-    "messagePlaceholder": "Conte-nos sobre seu projeto",
-    "submit": "Enviar Mensagem"
+    "messagePlaceholder": "Sua stack, o problema e o pacote que você está considerando",
+    "submit": "Solicitar conversa"
   },
   "footer": {
     "rights": "Todos os direitos reservados.",
