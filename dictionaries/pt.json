@@ -9,7 +9,7 @@
   "hero": {
     "title": "ISTech",
     "subtitle": "Engenharia de plataformas de dados e IA",
-    "description": "Deixamos plataformas Databricks e Spark mais baratas de rodar e mais confiáveis, e colocamos por cima agentes de IA em que seu time pode confiar. Para times de dados nos Estados Unidos, na Austrália e na Europa. Escopo fechado, preço fechado, entrega remota. Atendendo clientes enterprise nos Estados Unidos e no Brasil desde 2023.",
+    "description": "Deixamos plataformas Databricks e Spark mais baratas de rodar e mais confiáveis, e colocamos por cima agentes de IA em que seu time pode confiar. Para times de dados nos Estados Unidos primeiro, além de Austrália, Nova Zelândia, Reino Unido e Europa. Escopo fechado, preço fechado, entrega remota. Atendendo clientes enterprise desde 2023.",
     "cta": "Agende uma conversa de 30 minutos",
     "learnMore": "Veja nossos pacotes"
   },
@@ -90,7 +90,7 @@
   "highlights": {
     "title": "Por que escolher a ISTech?",
     "items": [
-      "Atendendo clientes enterprise nos Estados Unidos e no Brasil desde 2023",
+      "Atendendo clientes enterprise desde 2023",
       "Escopo e preço fechados em todo pacote. Sem cobrança por hora.",
       "Experiência prática com Databricks, Spark, Kafka, Airflow, dbt e Terraform",
       "13+ certificações profissionais (AWS, Databricks, Azure)",

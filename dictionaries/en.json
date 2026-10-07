@@ -9,7 +9,7 @@
   "hero": {
     "title": "ISTech",
     "subtitle": "Data platform and AI engineering",
-    "description": "We make Databricks and Spark platforms cheaper to run and more reliable, then put AI agents on top that your team can trust. For data teams in the United States, Australia and Europe. Fixed scope, fixed price, delivered remotely. Delivering for enterprise clients in the United States and Brazil since 2023.",
+    "description": "We make Databricks and Spark platforms cheaper to run and more reliable, then put AI agents on top that your team can trust. For data teams in the United States first, plus Australia, New Zealand, the United Kingdom and Europe. Fixed scope, fixed price, delivered remotely. Delivering for enterprise clients since 2023.",
     "cta": "Book a 30-minute scoping call",
     "learnMore": "See our packages"
   },
@@ -90,7 +90,7 @@
   "highlights": {
     "title": "Why choose ISTech?",
     "items": [
-      "Delivering for enterprise clients in the United States and Brazil since 2023",
+      "Delivering for enterprise clients since 2023",
       "Fixed scope and fixed price on every package. No hourly billing.",
       "Hands-on with Databricks, Spark, Kafka, Airflow, dbt and Terraform",
       "13+ professional certifications (AWS, Databricks, Azure)",

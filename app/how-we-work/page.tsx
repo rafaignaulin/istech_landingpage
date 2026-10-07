@@ -87,7 +87,7 @@ export default function HowWeWork() {
           <dt>Founded</dt>
           <dd>2023</dd>
           <dt>Clients</dt>
-          <dd>Enterprise clients in the United States and Brazil</dd>
+          <dd>Enterprise clients, United States first</dd>
           <dt>Stack</dt>
           <dd>
             Databricks, Apache Spark, AWS, Azure, Airflow, Kafka, dbt, Terraform, Kubernetes, LLM
@@ -169,7 +169,7 @@ export default function HowWeWork() {
             <div>
               <b>Billing</b>
               <span>
-                Invoiced in USD, AUD or EUR against the SOW milestones, paid by international transfer or card.
+                Invoiced in USD, AUD or EUR against the SOW milestones, paid by wire, or card for audits.
                 No payroll, no benefits, no visa, no employment relationship.
               </span>
             </div>

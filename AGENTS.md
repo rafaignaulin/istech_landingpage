@@ -31,7 +31,7 @@ Dark/light mode via `lib/theme-provider.tsx` + `lib/locale-provider.tsx` (i18n s
 ### SEO
 
 - **Metadata API** — title, description, keywords, OG/Twitter cards (`summary_large_image`, image from `app/opengraph-image.tsx` + `app/twitter-image.tsx`), canonical URL, googleBot directives
-- **JSON-LD** — Organization schema with founder Person (Founder and Principal), contactPoint, areaServed (`US`, `BR`), and `hasOfferCatalog` with the 5 fixed-scope packages A to E (audit, serving layer, agent pilot, pipeline sprint, retainer)
+- **JSON-LD** — Organization schema with no founder Person, contactPoint, areaServed (`US`, `AU`, `NZ`, `GB`, `EU`), and `hasOfferCatalog` with the 5 fixed-scope packages A to E (audit, serving layer, agent pilot, pipeline sprint, retainer)
 - **`app/sitemap.ts`** — single-page sitemap (homepage only, no fragment URLs)
 - **Analytics** — Cloudflare Web Analytics beacon at the end of `<body>` in `app/layout.tsx` (token for the istechdata.com zone; cookieless, no consent banner). Verify SEO with `~/www/sites/seo-check.mjs` and `lighthouse-check.sh`.
 - **`app/robots.ts`** — allow all, disallow `/api/`, sitemap URL
