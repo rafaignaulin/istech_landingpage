@@ -76,11 +76,6 @@
         "description": "Each dashboard had its own aggregate table and the numbers disagreed. One table built with Spark GROUPING SETS and ROLLUP now holds every grain the consumers need. Other teams adopted the pattern."
       },
       {
-        "metric": "In production",
-        "title": "An analytics agent that scores its own confidence",
-        "description": "Plain-language questions turned into SQL against the lakehouse, with each answer checked against validated questions by an LLM judge. Low-confidence answers are flagged, every answer is traced in MLflow, and an MCP server exposes the same data inside engineers' IDEs. In production for an enterprise client."
-      },
-      {
         "metric": "45M+",
         "title": "Customer segmentation platform",
         "description": "A medallion lakehouse on S3 and Delta Lake with CDC ingestion through Kafka, data quality as code that aborts bad loads, and a near-real-time update path between batch cycles. It serves 45M+ customers."

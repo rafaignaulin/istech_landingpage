@@ -76,11 +76,6 @@
         "description": "Cada dashboard tinha sua própria tabela agregada e os números não batiam. Uma tabela construída com GROUPING SETS e ROLLUP no Spark agora guarda todas as granularidades que os consumidores precisam. Outros times adotaram o padrão."
       },
       {
-        "metric": "Em produção",
-        "title": "Um agente analítico que mede a própria confiança",
-        "description": "Perguntas em linguagem natural viram SQL sobre o lakehouse, e cada resposta é comparada com perguntas validadas por um LLM judge. Respostas de baixa confiança são sinalizadas, toda resposta é rastreada no MLflow, e um servidor MCP expõe os mesmos dados na IDE dos engenheiros. Em produção para um cliente enterprise."
-      },
-      {
         "metric": "45M+",
         "title": "Plataforma de segmentação de clientes",
         "description": "Um lakehouse medallion em S3 e Delta Lake com ingestão CDC via Kafka, qualidade de dados como código que aborta cargas ruins, e um caminho de atualização quase em tempo real entre os ciclos batch. Atende mais de 45 milhões de clientes."
