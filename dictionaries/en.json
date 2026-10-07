@@ -15,7 +15,7 @@
   },
   "about": {
     "title": "A data platform and AI engineering firm",
-    "description": "ISTech sells outcomes, not hours. Every engagement is a package with a fixed scope, a fixed price and a written deliverable. Work runs async by default: one kickoff call, one written update a week, one handover call. Founded in 2023 and led by Rafael Ignaulin, Founder and Principal.",
+    "description": "ISTech sells outcomes, not hours. Every engagement is a package with a fixed scope, a fixed price and a written deliverable. Work runs async by default: one kickoff call, one written update a week, one handover call. Founded in 2023.",
     "forLabel": "For",
     "cards": [
       {
@@ -95,7 +95,7 @@
       "Hands-on with Databricks, Spark, Kafka, Airflow, dbt and Terraform",
       "13+ professional certifications (AWS, Databricks, Azure)",
       "Async delivery across 6+ timezones",
-      "Founder-led: every engagement is run by Rafael Ignaulin, Founder and Principal"
+      "Senior-level delivery on every engagement, one accountable lead"
     ]
   },
   "contact": {

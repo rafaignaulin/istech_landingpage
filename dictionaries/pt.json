@@ -15,7 +15,7 @@
   },
   "about": {
     "title": "Uma empresa de engenharia de plataformas de dados e IA",
-    "description": "A ISTech vende resultados, não horas. Cada projeto é um pacote com escopo fechado, preço fechado e uma entrega por escrito. O trabalho é assíncrono por padrão: uma call de kickoff, uma atualização escrita por semana, uma call de handover. Fundada em 2023 e liderada por Rafael Ignaulin, Founder and Principal.",
+    "description": "A ISTech vende resultados, não horas. Cada projeto é um pacote com escopo fechado, preço fechado e uma entrega por escrito. O trabalho é assíncrono por padrão: uma call de kickoff, uma atualização escrita por semana, uma call de handover. Fundada em 2023.",
     "forLabel": "Para",
     "cards": [
       {
@@ -95,7 +95,7 @@
       "Experiência prática com Databricks, Spark, Kafka, Airflow, dbt e Terraform",
       "13+ certificações profissionais (AWS, Databricks, Azure)",
       "Entrega assíncrona em 6+ fusos horários",
-      "Liderada pelo fundador: todo projeto é conduzido por Rafael Ignaulin, Founder and Principal"
+      "Entrega de nível sênior em todo projeto, um responsável único"
     ]
   },
   "contact": {

@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   title: 'ISTech | Data Platform and AI Engineering',
   description: 'Data platform and AI engineering firm: cheaper, more reliable Databricks and Spark platforms and trustworthy AI agents on top. Fixed scope, fixed price.',
   keywords: ['ISTech', 'Data Engineering', 'Consultancy', 'B2B', 'AWS', 'Databricks', 'Spark', 'Kafka', 'Airflow', 'Terraform', 'AI', 'MCP', 'LLM', 'RAG'],
-  authors: [{ name: 'Rafael Ignaulin' }],
-  creator: 'Rafael Ignaulin',
+  authors: [{ name: 'ISTech' }],
+  creator: 'ISTech',
   openGraph: {
     title: 'ISTech | Data Platform and AI Engineering',
     description: 'Cheaper, more reliable Databricks and Spark platforms and trustworthy AI agents on top. Fixed scope, fixed price, delivered remotely.',
@@ -85,11 +85,6 @@ export default function RootLayout({
               url: 'https://istechdata.com',
               description: 'Data platform and AI engineering firm. We make Databricks and Spark platforms cheaper and more reliable, and put trustworthy AI agents on top. Fixed scope, fixed price, delivered remotely.',
               foundingDate: '2023',
-              founder: {
-                '@type': 'Person',
-                name: 'Rafael Ignaulin',
-                jobTitle: 'Founder and Principal',
-              },
               contactPoint: {
                 '@type': 'ContactPoint',
                 email: 'contact@istechdata.com',

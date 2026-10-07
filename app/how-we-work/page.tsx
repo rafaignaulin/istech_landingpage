@@ -79,8 +79,6 @@ export default function HowWeWork() {
           <dd>Ignaulin Soluções Tecnológicas (ISTech), Brazil</dd>
           <dt>Founded</dt>
           <dd>2023</dd>
-          <dt>Leadership</dt>
-          <dd>Rafael Ignaulin, Founder and Principal</dd>
           <dt>Clients</dt>
           <dd>Enterprise clients in the United States and Brazil</dd>
           <dt>Stack</dt>
@@ -94,8 +92,8 @@ export default function HowWeWork() {
       <section className={styles.section}>
         <h2>Engagement models</h2>
         <p className={styles.lede}>
-          Every engagement is a fixed-scope package delivered by ISTech personnel, led by Rafael
-          Ignaulin. Most clients start with the audit.
+          Every engagement is a fixed-scope package delivered by the ISTech
+          team. Most clients start with the audit.
         </p>
         <div className={styles.grid3}>
           <div>
@@ -249,8 +247,7 @@ export default function HowWeWork() {
           <dd>No. You pay an international vendor invoice.</dd>
           <dt>Who does the work?</dt>
           <dd>
-            ISTech personnel, led by Rafael Ignaulin, Founder and Principal. The SOW names the
-            delivery lead.
+            The ISTech team. The SOW names the delivery lead for each engagement.
           </dd>
           <dt>What does it cost?</dt>
           <dd>
@@ -313,8 +310,8 @@ export default function HowWeWork() {
         </p>
         <div className={styles.sign}>
           <div className={styles.who}>
-            <b>Rafael Ignaulin</b>
-            <span>Founder and Principal, ISTech</span>
+            <b>ISTech</b>
+            <span>Data platform and AI engineering</span>
           </div>
           <div className={styles.links}>
             <a href="mailto:contact@istechdata.com">contact@istechdata.com</a>
