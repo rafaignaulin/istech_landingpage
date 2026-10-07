@@ -48,12 +48,19 @@ export default function HowWeWork() {
             <b>Remote and async by default, on your systems and under your security policies.</b>
           </div>
           <div>
+            <span>Markets</span>
+            <b>
+              United States first, plus Australia, New Zealand, the United Kingdom and Europe.
+              Calls are scheduled inside your business day.
+            </b>
+          </div>
+          <div>
             <span>Meetings</span>
             <b>One kickoff call, one written update a week, one handover call.</b>
           </div>
           <div>
             <span>Commercials</span>
-            <b>Fixed price per package, invoiced in USD. Audits paid upfront, builds 50% at signature and 50% at delivery.</b>
+            <b>Fixed price per package, invoiced in USD, AUD or EUR. Audits paid upfront, builds 50% at signature and 50% at delivery.</b>
           </div>
           <div>
             <span>Start</span>
@@ -144,7 +151,7 @@ export default function HowWeWork() {
               <b>Vendor onboarding</b>
               <span>
                 We send company registration, address, the tax form for your country (W-8BEN-E for
-                US clients) and bank details for payment in USD. Usually one week on the client side.
+                US clients) and bank details for payment in USD, AUD or EUR. Usually one week on the client side.
               </span>
             </div>
           </li>
@@ -162,7 +169,7 @@ export default function HowWeWork() {
             <div>
               <b>Billing</b>
               <span>
-                Invoiced in USD against the SOW milestones, paid by international transfer or card.
+                Invoiced in USD, AUD or EUR against the SOW milestones, paid by international transfer or card.
                 No payroll, no benefits, no visa, no employment relationship.
               </span>
             </div>
@@ -213,6 +220,17 @@ export default function HowWeWork() {
                 </td>
                 <td>
                   <span className={styles.none}>None</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Australia</td>
+                <td>ATO &ldquo;Statement by a supplier&rdquo; on request</td>
+                <td>
+                  <span className={styles.none}>None</span> Not connected with Australia, no ABN
+                  required
+                </td>
+                <td>
+                  <span className={styles.none}>No GST</span>
                 </td>
               </tr>
               <tr>
