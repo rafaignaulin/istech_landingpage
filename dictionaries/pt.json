@@ -9,7 +9,7 @@
   "hero": {
     "title": "ISTech",
     "subtitle": "Engenharia de plataformas de dados e IA",
-    "description": "Deixamos plataformas Databricks e Spark mais baratas de rodar e mais confiáveis, e colocamos por cima agentes de IA em que seu time pode confiar. Para times de dados nos Estados Unidos primeiro, além de Austrália, Nova Zelândia, Reino Unido e Europa. Escopo fechado, preço fechado, entrega remota. Atendendo clientes enterprise desde 2023.",
+    "description": "Plataformas Databricks e Spark mais baratas e confiáveis, com agentes de IA em que seu time pode confiar. Escopo e preço fechados.",
     "proof": "Clientes incluem Nike e Inter&Co.",
     "cta": "Agende uma conversa de 30 minutos",
     "learnMore": "Veja nossos pacotes"
@@ -24,7 +24,7 @@
         "title": "Auditoria de custo e confiabilidade Databricks",
         "timeline": "1 semana",
         "for": "Times em Databricks ou Spark cuja conta de compute cresce mais rápido que os dados, ou cujos jobs falham demais.",
-        "description": "Revisamos seus 10 jobs mais caros ou menos confiáveis e entregamos um relatório escrito com cada achado ordenado por economia esperada e esforço, mais um preço fechado para implementar as principais correções. Se o primeiro dia não mostrar uma economia crível, você não paga nada. O valor é abatido das correções se você fechar em até 30 dias."
+        "description": "Revisamos seus 10 jobs mais caros ou menos confiáveis e entregamos um relatório com achados ordenados por economia esperada, esforço e preço fechado para as principais correções. O valor é abatido se fechar em até 30 dias."
       },
       {
         "tag": "Construção",
@@ -90,7 +90,7 @@
   },
   "mission": {
     "title": "Primeiro a plataforma, depois a IA",
-    "description": "Plataformas de dados tendem a custar mais e quebrar mais a cada trimestre, e um agente de IA construído por cima herda cada falha que está embaixo. Primeiro corrigimos a plataforma, depois construímos agentes que dizem quando não têm certeza. Todo pacote termina com algo rodando em produção e um runbook que seu time consegue seguir.",
+    "description": "Plataformas de dados tendem a custar mais e quebrar com frequência, e agentes de IA herdam cada falha da base. Corrigimos a plataforma primeiro e construímos agentes confiáveis. Todo pacote termina com código em produção e um runbook.",
     "cta": "Agende uma conversa de 30 minutos"
   },
   "highlights": {

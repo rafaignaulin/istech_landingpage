@@ -9,7 +9,7 @@
   "hero": {
     "title": "ISTech",
     "subtitle": "Data platform and AI engineering",
-    "description": "We make Databricks and Spark platforms cheaper to run and more reliable, then put AI agents on top that your team can trust. For data teams in the United States first, plus Australia, New Zealand, the United Kingdom and Europe. Fixed scope, fixed price, delivered remotely. Delivering for enterprise clients since 2023.",
+    "description": "We make Databricks and Spark platforms cheaper to run and more reliable, with trustworthy AI agents on top. Fixed scope, fixed price.",
     "proof": "Clients include Nike and Inter&Co.",
     "cta": "Book a 30-minute scoping call",
     "learnMore": "See our packages"
@@ -24,7 +24,7 @@
         "title": "Databricks cost and reliability audit",
         "timeline": "1 week",
         "for": "Teams on Databricks or Spark whose compute bill grows faster than their data, or whose jobs fail too often.",
-        "description": "We review your 10 most expensive or least reliable jobs and deliver a written report with every finding ranked by expected saving and effort, plus a fixed price to implement the top fixes. If day one shows no credible saving, you pay nothing. The fee is credited toward the fixes if you sign within 30 days."
+        "description": "We review your 10 most expensive or least reliable jobs and deliver a ranked report with expected savings, effort, and a fixed price to implement the top fixes. The fee is credited toward the fixes if you sign within 30 days."
       },
       {
         "tag": "Build",
@@ -90,7 +90,7 @@
   },
   "mission": {
     "title": "Fix the platform, then add AI",
-    "description": "Data platforms tend to cost more and break more every quarter, and an AI agent built on top inherits every flaw underneath. We fix the platform first, then build agents that say when they are not sure. Every package ends with something running in production and a runbook your team can follow.",
+    "description": "Data platforms tend to cost more and break more each quarter, and AI agents inherit every flaw underneath. We fix the platform first, then build agents your team can trust. Every package ends with production software and a runbook.",
     "cta": "Book a 30-minute scoping call"
   },
   "highlights": {

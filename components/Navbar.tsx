@@ -58,13 +58,33 @@ export default function Navbar() {
               {item.label}
             </a>
           ))}
-          <button
-            onClick={() => setLocale(locale === 'en' ? 'pt' : 'en')}
-            className="font-mono text-xs font-semibold px-2 py-1 rounded border transition-colors"
-            style={{ borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }}
+          <div
+            className="flex items-center rounded border p-0.5 font-mono text-xs font-semibold"
+            style={{ borderColor: 'var(--border-color)' }}
           >
-            {locale === 'en' ? 'PT' : 'EN'}
-          </button>
+            <button
+              type="button"
+              onClick={() => setLocale('en')}
+              className="px-2 py-0.5 rounded transition-colors"
+              style={{
+                backgroundColor: locale === 'en' ? 'var(--accent-solid)' : 'transparent',
+                color: locale === 'en' ? '#ffffff' : 'var(--text-secondary)',
+              }}
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              onClick={() => setLocale('pt')}
+              className="px-2 py-0.5 rounded transition-colors"
+              style={{
+                backgroundColor: locale === 'pt' ? 'var(--accent-solid)' : 'transparent',
+                color: locale === 'pt' ? '#ffffff' : 'var(--text-secondary)',
+              }}
+            >
+              PT
+            </button>
+          </div>
           <button
             onClick={toggleTheme}
             className="icon-btn"
@@ -99,13 +119,33 @@ export default function Navbar() {
             </a>
           ))}
           <div className="flex items-center gap-4 pt-2">
-            <button
-              onClick={() => setLocale(locale === 'en' ? 'pt' : 'en')}
-              className="font-mono text-xs font-semibold px-2 py-1 rounded border"
-              style={{ borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }}
+            <div
+              className="flex items-center rounded border p-0.5 font-mono text-xs font-semibold"
+              style={{ borderColor: 'var(--border-color)' }}
             >
-              {locale === 'en' ? 'PT' : 'EN'}
-            </button>
+              <button
+                type="button"
+                onClick={() => setLocale('en')}
+                className="px-2 py-0.5 rounded transition-colors"
+                style={{
+                  backgroundColor: locale === 'en' ? 'var(--accent-solid)' : 'transparent',
+                  color: locale === 'en' ? '#ffffff' : 'var(--text-secondary)',
+                }}
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                onClick={() => setLocale('pt')}
+                className="px-2 py-0.5 rounded transition-colors"
+                style={{
+                  backgroundColor: locale === 'pt' ? 'var(--accent-solid)' : 'transparent',
+                  color: locale === 'pt' ? '#ffffff' : 'var(--text-secondary)',
+                }}
+              >
+                PT
+              </button>
+            </div>
             <button onClick={toggleTheme} className="icon-btn" aria-label="Toggle theme">
               {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
             </button>
