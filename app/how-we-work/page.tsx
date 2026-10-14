@@ -310,10 +310,6 @@ export default function HowWeWork() {
             <div className={styles.num}>Weeks → hours</div>
             <div className={styles.lbl}>A/B test reporting, fully automated end to end (Nike)</div>
           </div>
-          <div>
-            <div className={styles.num}>45M+</div>
-            <div className={styles.lbl}>Customers served by a near real time segmentation platform (Inter&amp;Co)</div>
-          </div>
         </div>
         <p className={styles.certs}>
           13+ certifications, including AWS Solutions Architect Professional and Databricks Data

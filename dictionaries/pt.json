@@ -77,9 +77,9 @@
         "description": "Cada dashboard tinha sua própria tabela agregada e os números não batiam. Uma tabela construída com GROUPING SETS e ROLLUP no Spark agora guarda todas as granularidades que os consumidores precisam. Outros times adotaram o padrão."
       },
       {
-        "metric": "45M+",
+        "metric": "Lakehouse",
         "title": "Plataforma de segmentação de clientes (Inter&Co)",
-        "description": "Um lakehouse medallion em S3 e Delta Lake com ingestão CDC via Kafka, qualidade de dados como código que aborta cargas ruins, e um caminho de atualização quase em tempo real entre os ciclos batch. Atende mais de 45 milhões de clientes."
+        "description": "Um lakehouse medallion em S3 e Delta Lake com ingestão CDC via Kafka, qualidade de dados como código que aborta cargas ruins, e um caminho de atualização quase em tempo real entre os ciclos batch."
       },
       {
         "metric": "Agente",

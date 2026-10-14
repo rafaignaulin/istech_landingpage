@@ -77,9 +77,9 @@
         "description": "Each dashboard had its own aggregate table and the numbers disagreed. One table built with Spark GROUPING SETS and ROLLUP now holds every grain the consumers need. Other teams adopted the pattern."
       },
       {
-        "metric": "45M+",
+        "metric": "Lakehouse",
         "title": "Customer segmentation platform (Inter&Co)",
-        "description": "A medallion lakehouse on S3 and Delta Lake with CDC ingestion through Kafka, data quality as code that aborts bad loads, and a near-real-time update path between batch cycles. It serves 45M+ customers."
+        "description": "A medallion lakehouse on S3 and Delta Lake with CDC ingestion through Kafka, data quality as code that aborts bad loads, and a near-real-time update path between batch cycles."
       },
       {
         "metric": "Agent",
